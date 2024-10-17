@@ -114,7 +114,8 @@ char key, cwmode=0;
 void setup() {
   pinMode(slave_select_pin, OUTPUT);
   digitalWrite(slave_select_pin, LOW); //Esto creo que es redundante
-
+  Serial.begin(9600);
+  
   SPI.setDataMode(SPI_MODE0);
   SPI.setBitOrder(MSBFIRST);
   SPI.setClockDivider(SPI_CLOCK_DIV128);
