@@ -1,0 +1,39 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_10 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_Spartan_SWS_behav xil_defaultlib.tb_Spartan_SWS xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.rs232_test
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.inst_pkg
+Compiling package xil_defaultlib.mem_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture transmitter_behavior of entity xil_defaultlib.RS232_transmitter [rs232_transmitter_default]
+Compiling architecture receiver_behavior of entity xil_defaultlib.RS232_receiver [rs232_receiver_default]
+Compiling architecture sr_behavior of entity xil_defaultlib.RS232_shiftregister [rs232_shiftregister_default]
+Compiling module fifo_generator_v13_2_10.fifo_generator_v13_2_10_bhv_ver_...
+Compiling module fifo_generator_v13_2_10.fifo_generator_v13_2_10_CONV_VER...
+Compiling module fifo_generator_v13_2_10.fifo_generator_vlog_beh(C_COMMON...
+Compiling module xil_defaultlib.RS232_fifo
+Compiling architecture rs232_behavior of entity xil_defaultlib.RS232 [rs232_default]
+Compiling architecture dma_behavior of entity xil_defaultlib.DMA [dma_default]
+Compiling architecture ram_behavior of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture alu_behavior of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture rom_behavior of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture cpu_behavior of entity xil_defaultlib.CPU [cpu_default]
+Compiling architecture sws_top_behavior of entity xil_defaultlib.SWS_top [sws_top_default]
+Compiling architecture sws_behavior of entity xil_defaultlib.Spartan_SWS [spartan_sws_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_spartan_sws
+Built simulation snapshot tb_Spartan_SWS_behav

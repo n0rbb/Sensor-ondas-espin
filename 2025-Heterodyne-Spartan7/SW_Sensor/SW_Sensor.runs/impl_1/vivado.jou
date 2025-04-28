@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Apr 27 12:08:50 2025
+# Process ID: 6988
+# Current directory: C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.runs/impl_1
+# Command line: vivado.exe -log Spartan_SWS.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Spartan_SWS.tcl -notrace
+# Log file: C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.runs/impl_1/Spartan_SWS.vdi
+# Journal file: C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-NDA5VSL
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+# CPU Frequency     :1997 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16972 MB
+# Swap memory       :2952 MB
+# Total Virtual     :19925 MB
+# Available Virtual :7834 MB
+#-----------------------------------------------------------
+source Spartan_SWS.tcl -notrace

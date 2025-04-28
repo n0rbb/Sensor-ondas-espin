@@ -1,0 +1,47 @@
+
+#INIT   LD      .A      [0x03]
+        LD      .B      0xFF
+        CMPL
+        JMPT    #INIT
+
+        LD      .ACC    0x00
+        SW      [0x03]  .ACC
+        LD      .A      [0x00]
+        LD      .B      0x4C
+        CMPE
+        JMPT    #LED
+        JMP     #ERR
+
+
+#LED
+        LD      .A      [0x01]
+        ASCII2BIN
+        LD      .INDEX  .ACC
+        LD      .A      .ACC
+        LD      .B      0x02
+        CMPG
+        JMPT    #ERR
+        LD      .A      [0x02]
+        ASCII2BIN
+        LD      .A      .ACC
+        LD      .B      0x01
+        CMPG
+        JMPT    #ERR
+        SWI     [0x06]  .ACC
+        JMP     #SOK
+
+
+#SOK    LD      .ACC    0x3B
+        SW      [0x04]  .ACC
+        LD      .ACC    0x50
+        SW      [0x05]  .ACC
+        SEND
+        JMP     #INIT
+
+
+#ERR    LD      .ACC    0x45
+        SW      [0x04]  .ACC
+        LD      .ACC    0x52
+        SW      [0x05]  .ACC
+        SEND
+        JMP     #INIT
