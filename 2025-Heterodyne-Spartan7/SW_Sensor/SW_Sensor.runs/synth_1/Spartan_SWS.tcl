@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.runs/synth_1/Spartan_SWS.tcl"
+  variable script "C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.runs/synth_1/Spartan_SWS.tcl"
   variable category "vivado_synth"
 }
 
@@ -56,7 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7s25csga225-1
 
@@ -64,35 +63,35 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.cache/wt [current_project]
-set_property parent.project_path C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.cache/wt [current_project]
+set_property parent.project_path C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:cmod-s7-25:part0:1.0 [current_project]
-set_property ip_output_repo c:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.cache/ip [current_project]
+set_property ip_output_repo c:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/INST_pkg.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/MEM_pkg.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/imports/new/RS232_test.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/ALU.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/CPU.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/DMA.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/RAM.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/ROM.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_receiver.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_shiftregister.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_transmitter.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/SWS_top.vhd
-  C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/new/Spartan_SWS.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/INST_pkg.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/MEM_pkg.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/imports/new/RS232_test.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/ALU.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/CPU.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/DMA.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/RAM.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/ROM.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_receiver.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_shiftregister.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_transmitter.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/SWS_top.vhd
+  C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/Spartan_SWS.vhd
 }
-read_ip -quiet C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/ip/RS232_fifo/RS232_fifo.xci
-set_property used_in_implementation false [get_files -all c:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.gen/sources_1/ip/RS232_fifo/RS232_fifo.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.gen/sources_1/ip/RS232_fifo/RS232_fifo_ooc.xdc]
+read_ip -quiet C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/ip/RS232_fifo/RS232_fifo.xci
+set_property used_in_implementation false [get_files -all c:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.gen/sources_1/ip/RS232_fifo/RS232_fifo.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.gen/sources_1/ip/RS232_fifo/RS232_fifo_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -103,12 +102,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/constrs_1/new/cmod_s7_25.xdc
-set_property used_in_implementation false [get_files C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/constrs_1/new/cmod_s7_25.xdc]
+read_xdc C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/constrs_1/new/cmod_s7_25.xdc
+set_property used_in_implementation false [get_files C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/constrs_1/new/cmod_s7_25.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/utils_1/imports/synth_1/Spartan_SWS.dcp
+read_checkpoint -auto_incremental -incremental C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/utils_1/imports/synth_1/Spartan_SWS.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

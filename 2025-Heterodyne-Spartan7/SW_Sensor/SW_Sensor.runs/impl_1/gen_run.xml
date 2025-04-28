@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1745748410">
+<GenRun Id="impl_1" LaunchPart="xc7s25csga225-1" LaunchTime="1745827530">
   <File Type="ROUTE-PWR" Name="Spartan_SWS_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Spartan_SWS.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Spartan_SWS_power_summary_routed.pb"/>

@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.runs/impl_1/Spartan_SWS.tcl"
+  variable script "C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.runs/impl_1/Spartan_SWS.tcl"
   variable category "vivado_impl"
 }
 
@@ -97,7 +97,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {Common 17-41} -limit 10000000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -114,17 +113,17 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.cache/wt [current_project]
-  set_property parent.project_path C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.xpr [current_project]
-  set_property ip_output_repo C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.cache/wt [current_project]
+  set_property parent.project_path C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.xpr [current_project]
+  set_property ip_output_repo C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.runs/synth_1/Spartan_SWS.dcp
-  read_ip -quiet C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/sources_1/ip/RS232_fifo/RS232_fifo.xci
+  add_files -quiet C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.runs/synth_1/Spartan_SWS.dcp
+  read_ip -quiet C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/ip/RS232_fifo/RS232_fifo.xci
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/worbb/Desktop/IMA/FPGA/SW_Sensor/SW_Sensor.srcs/constrs_1/new/cmod_s7_25.xdc
+  read_xdc C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/constrs_1/new/cmod_s7_25.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }
