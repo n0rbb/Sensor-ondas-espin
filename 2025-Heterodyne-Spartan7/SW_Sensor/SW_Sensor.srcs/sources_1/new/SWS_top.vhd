@@ -29,8 +29,8 @@ entity SWS_top is
         CLK_PORT    : in std_logic;
         RESET       : in std_logic;
         
-        RS232_RX    : in std_logic;
-        RS232_TX    : out std_logic;
+        I2C_SCL     : in std_logic;
+        I2C_SDA     : inout std_logic;
         
         LED_PORT    : out std_logic_vector(2 downto 0)
     );
@@ -41,7 +41,7 @@ architecture SWS_top_Behavior of SWS_top is
     -- Component declaration
     -- RS232
     
-    component RS232 is
+    component I2C is
         port (
             CLK_PORT    : in  std_logic;
             RESET       : in  std_logic;
@@ -51,8 +51,8 @@ architecture SWS_top_Behavior of SWS_top is
             ACK_IN      : out std_logic;
             TX_RDY      : out std_logic;
       
-            RD          : in  std_logic;
-            TD          : out std_logic;
+            SCL         : in  std_logic;
+            SDA         : inout std_logic;
 
             DATA_READ   : in  std_logic;
             DATA_OUT    : out std_logic_vector(7 downto 0);
@@ -207,7 +207,7 @@ architecture SWS_top_Behavior of SWS_top is
     begin
 
         -- Component port mapping 
-        RS232_CP : RS232
+        I2C_INTF : I2C
             port map(
                 CLK_PORT    => CLK_PORT,
                 RESET       => RESET,
@@ -217,8 +217,8 @@ architecture SWS_top_Behavior of SWS_top is
                 ACK_IN      => ack_out,
                 TX_RDY      => tx_rdy,
 
-                RD          => RS232_RX,
-                TD          => RS232_TX,
+                SCL         => I2C_SCL,
+                SDA         => I2C_SDA,
 
                 DATA_READ   => data_read,
                 DATA_OUT    => rcvd_data,
