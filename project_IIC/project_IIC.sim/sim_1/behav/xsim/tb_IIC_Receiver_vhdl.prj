@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_IIC.srcs/sources_1/new/i2c_test.vhd" \
+"../../../../project_IIC.srcs/sources_1/new/I2C_receiver.vhd" \
+"../../../../project_IIC.srcs/sources_1/new/I2C_shiftregister.vhd" \
+"../../../../project_IIC.srcs/sources_1/new/I2C_top.vhd" \
+"../../../../project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd" \
+
+# Do not sort compile order
+nosort

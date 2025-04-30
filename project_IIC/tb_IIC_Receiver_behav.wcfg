@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_IIC_Receiver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="i2c_test" />
+            <top_module name="tb_IIC_Receiver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="46.114282 us"></ZoomStartTime>
+      <ZoomEndTime time="69.666583 us"></ZoomEndTime>
+      <Cursor1Time time="50.039665 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/tb_IIC_Receiver/clk12mhz" type="logic">
+      <obj_property name="ElementShortName">clk12mhz</obj_property>
+      <obj_property name="ObjectShortName">clk12mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/clk400khz" type="logic">
+      <obj_property name="ElementShortName">clk400khz</obj_property>
+      <obj_property name="ObjectShortName">clk400khz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/sda_fake" type="logic">
+      <obj_property name="ElementShortName">sda_fake</obj_property>
+      <obj_property name="ObjectShortName">sda_fake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/byte" type="array">
+      <obj_property name="ElementShortName">byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/comm_enable" type="logic">
+      <obj_property name="ElementShortName">comm_enable</obj_property>
+      <obj_property name="ObjectShortName">comm_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/clkperiod" type="other">
+      <obj_property name="ElementShortName">clkperiod</obj_property>
+      <obj_property name="ObjectShortName">clkperiod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/sclperiod" type="other">
+      <obj_property name="ElementShortName">sclperiod</obj_property>
+      <obj_property name="ObjectShortName">sclperiod</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/clk400khz" type="logic">
+      <obj_property name="ElementShortName">clk400khz</obj_property>
+      <obj_property name="ObjectShortName">clk400khz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/sda_fake" type="logic">
+      <obj_property name="ElementShortName">sda_fake</obj_property>
+      <obj_property name="ObjectShortName">sda_fake</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/comm_enable" type="logic">
+      <obj_property name="ElementShortName">comm_enable</obj_property>
+      <obj_property name="ObjectShortName">comm_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/REC_ACK" type="logic">
+      <obj_property name="ElementShortName">REC_ACK</obj_property>
+      <obj_property name="ObjectShortName">REC_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/stop_comm" type="logic">
+      <obj_property name="ElementShortName">stop_comm</obj_property>
+      <obj_property name="ObjectShortName">stop_comm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/slave_en" type="logic">
+      <obj_property name="ElementShortName">slave_en</obj_property>
+      <obj_property name="ObjectShortName">slave_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/data_count" type="array">
+      <obj_property name="ElementShortName">data_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/ShiftRegister/ENABLE" type="logic">
+      <obj_property name="ElementShortName">ENABLE</obj_property>
+      <obj_property name="ObjectShortName">ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/ShiftRegister/Q" type="array">
+      <obj_property name="ElementShortName">Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IIC_Receiver/I2C_inst/Receiver/DEV_ADDR" type="array">
+      <obj_property name="ElementShortName">DEV_ADDR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">DEV_ADDR[6:0]</obj_property>
+   </wvobject>
+</wave_config>

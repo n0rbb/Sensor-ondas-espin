@@ -87,6 +87,7 @@ architecture Behavioral of I2C_receiver is
                     end if;
                     
                 when RcvAddr => -- 8 ciclos SCL, pero se puede usar CLK
+                    VALID_OUT <= '1';
                     STORE_OUT <= '0';
                     REC_ACK   <= '0';
                     if data_count = 7 then -- Address fully received

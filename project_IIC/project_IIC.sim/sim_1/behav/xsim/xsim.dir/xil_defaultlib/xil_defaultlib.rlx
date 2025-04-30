@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd,1746013585,vhdl,,,,tb_iic_receiver,,,,,,,,
+C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sources_1/new/I2C_receiver.vhd,1746013789,vhdl,,,,i2c_receiver,,,,,,,,
+C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sources_1/new/I2C_shiftregister.vhd,1746012679,vhdl,,,,i2c_shiftregister,,,,,,,,
+C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sources_1/new/I2C_top.vhd,1746006725,vhdl,,,,i2c_top,,,,,,,,
+C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sources_1/new/i2c_test.vhd,1746012418,vhdl,C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd,,,i2c_test,,,,,,,,
