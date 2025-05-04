@@ -71,7 +71,7 @@ architecture Behavioral of I2C_receiver is
 
 
     -- Processes
-    Receiver_FSM : process(current_state, start, stop_comm, SDA_IN)
+    Receiver_FSM : process(current_state, start, stop_comm, ack_holder, SDA_IN)
         begin
             CODE_OUT <= SDA_IN; -- En todos los casos
             VALID_OUT <= '0';
@@ -90,7 +90,7 @@ architecture Behavioral of I2C_receiver is
                     VALID_OUT <= '1';
                     STORE_OUT <= '0';
                     REC_ACK   <= '0';
-                    if data_count = 7 then -- Address fully received
+                    if data_count = 8 then -- Address fully received
                         next_state <= ChkAddr;
                     else 
                         next_state <= RcvAddr;
@@ -102,7 +102,7 @@ architecture Behavioral of I2C_receiver is
                     if SR_BYTE(7 downto 1) = DEV_ADDR then
                         next_state <= SendAck;
                     else
-                        next_state <= Idle;
+                        next_state <= StopCond;
                     end if;
 
                 when SendAck => -- 1 Ciclo SCL
@@ -113,11 +113,13 @@ architecture Behavioral of I2C_receiver is
                     else
                         STORE_OUT <= '1'; -- Que la FIFO funcione en flanco de subida SCL
                     end if;
-
-                    if stop_comm = '1' then
+                    
+                    if ack_holder = '1' then
+                        next_state <= RcvData;
+                    elsif stop_comm = '1' then
                         next_state <= StopCond;
                     else
-                        next_state <= RcvData;
+                        next_state <= SendAck;
                     end if;
 
                 
@@ -125,19 +127,18 @@ architecture Behavioral of I2C_receiver is
                     STORE_OUT <= '0';
                     REC_ACK   <= '0';
                     VALID_OUT <= '1';
-                    if data_count = 7 then -- Databyte fully received
+                    if data_count = 8 then -- Databyte fully received
                         next_state <= SendAck;
+                    elsif stop_comm = '1' then
+                        next_state <= StopCond;
                     else 
                         next_state <= RcvData;
-                    end if;
-                --when FifoStore => -- 1 Ciclo CLk
-                --    REC_ACK     
+                    end if; 
                         
                 when StopCond => -- 1 Ciclo CLK también 
                     STORE_OUT <= '0';
                     REC_ACK   <= '0';
                     next_state <= Idle;
-
             end case;
     
     end process Receiver_FSM;
@@ -174,30 +175,33 @@ architecture Behavioral of I2C_receiver is
             end if;
     end process Receiver_Clocking;
   --  RcvAddr, ChkAddr, RcvData, SendAck, StopCond
-    Receiver_Timing : process(SCL, RESET)
+    Receiver_Counter : process(SCL, RESET, stop_comm)
         begin
-            if RESET = '0' then
+            if RESET = '0' or stop_comm = '1' then
                 data_count <= (others => '0');
+                
             elsif SCL'event and SCL = '1' then 
-                case current_state is 
-                    when Idle =>
-                        data_count <= (others => '0');
-                    when RcvAddr =>
-                        data_count <= data_count + 1;
-                    when ChkAddr =>
-                        data_count <= (others => '0');
-                    when RcvData =>
-                        data_count <= data_count + 1;
-                    when SendAck =>
-                        data_count <= (others => '0');
-                    when StopCond =>
-                        data_count <= (others => '0');
-                end case;
+                if current_state = RcvAddr or current_state = RcvData then
+                    data_count <= data_count + 1;
+                else
+                    data_count <= (others => '0');
+                end if;
             end if;
-
-
-            
-    end process Receiver_Timing;
+    end process Receiver_Counter;
+    
+    Receiver_ACK    : process(SCL, RESET, stop_comm)
+        begin
+            if RESET = '0' or stop_comm = '1' then
+                ack_holder <= '0';
+                
+            elsif SCL'event and SCL = '0' then 
+                if current_state = SendAck then
+                    ack_holder <= '1'; 
+                else
+                    ack_holder <= '0';
+                end if;
+            end if;
+    end process Receiver_ACK;
 
 
 

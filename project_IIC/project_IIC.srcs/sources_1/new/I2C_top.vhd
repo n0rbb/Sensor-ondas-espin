@@ -59,9 +59,9 @@ end I2C_top;
 
 architecture Behavioral of I2C_top is
     --signal declaration (?)
-    signal rec_ack, sr_enable, sr_in, fifo_enable     : std_logic;
-    signal sr_byte                                    : std_logic_vector(7 downto 0);
-    
+    signal rec_ack, sr_enable, sr_in                  : std_logic;
+    signal sr_byte, fifo_out                          : std_logic_vector(7 downto 0);
+    signal sinit, fifo_enable, fifo_read              : std_logic;
     --component I2C_transmitter (whenever we want to transmit data bytes)
     component I2C_receiver is
         generic(
@@ -137,7 +137,24 @@ architecture Behavioral of I2C_top is
                 Q           => sr_byte
             );
         
+        FIFO : I2C_fifo
+            port map(
+                srst        => sinit,
+                clk         => CLK_PORT,
+
+                wr_en       => fifo_enable,
+                din         => sr_byte,
+            
+                rd_en       => fifo_read,
+                dout        => fifo_out,
+            
+                full        => FULL,
+                empty       => EMPTY
+            );
+        
     -- Signal behaviour
+    sinit <= not RESET;
+    fifo_read <= DATA_READ;
     -- Process
 
     SDA_MUX : process(rec_ack) -- trans_output

@@ -62,7 +62,7 @@ architecture Behavioral of tb_IIC_Receiver is
     signal byte     : std_logic_vector(7 downto 0);
     
     signal comm_enable : std_logic;
-    
+    signal data_read   : std_logic;
     constant clkperiod  : time := 83.33 ns; --12 MHz clock frequency
     constant sclperiod  : time := 2500 ns; -- 400kHz clock frequency
 begin
@@ -76,7 +76,7 @@ begin
             SCL         => clk400khz, 
             SDA         => sda_fake,
             
-            DATA_READ   => '0',
+            DATA_READ   => data_read,
             DATA_OUT    => data_out,
             
             FULL => full,
@@ -113,6 +113,8 @@ begin
                 sda_fake <= '1';
                 comm_enable <= '0';
                 wait for 50us;
+                
+                -- Comando read al address correcto
                 -- Condición de inicio
                 sda_fake <= '0'; --Bajo la línea SDA
                 wait for 625ns;
@@ -122,15 +124,59 @@ begin
                 Transmit(sda_fake, "10001010");
                 Transmit(sda_fake, "01010111");
                 Transmit(sda_fake, "10010100");
-               
                 
                 --Condición de parada
-                wait for 625ns; --Creo que debería estar en flanco de subida
                 comm_enable <= '0';
+                wait for 1250ns; --Creo que debería estar en flanco de subida
+                sda_fake <= '1';
+                wait for 100 us;
+                
+                --Comando write al address correcto
+                -- Condición de inicio
+                sda_fake <= '0'; --Bajo la línea SDA
+                wait for 625ns;
+                comm_enable <= '1'; --Tiro
+                wait for 625ns;
+                
+                Transmit(sda_fake, "10001011");
+                Transmit(sda_fake, "00000001");
+                Transmit(sda_fake, "10011101");
+
+                --Condición de parada
+                comm_enable <= '0';
+                wait for 1250ns; --Creo que debería estar en flanco de subida
+                sda_fake <= '1';
+                wait for 100 us;
+                
+                -- Comando read al address incorrecto
+                -- Condición de inicio 
+                sda_fake <= '0'; --Bajo la línea SDA
+                wait for 625ns;
+                comm_enable <= '1'; --Tiro
+                wait for 625ns;
+                
+                Transmit(sda_fake, "10101010");
+                Transmit(sda_fake, "00111101");
+                Transmit(sda_fake, "10000001");
+
+                --Condición de parada
+                comm_enable <= '0';
+                wait for 1250ns; --Creo que debería estar en flanco de subida
                 sda_fake <= '1';
                 wait;
+                
       end process I2C_Comm;
-        
-
+       
+      FIFO_read : process
+        begin
+            wait for 4*clkperiod;
+            if empty = '0' then
+                data_read <= '1';
+                wait for clkperiod;
+            else
+                data_read <= '0';
+                wait for clkperiod;
+            end if;
+        end process FIFO_read;
 
 end Behavioral;

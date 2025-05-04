@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_IIC_Receiver_func_synth.vhd" \
+"../../../../../project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd" \
+
+# Do not sort compile order
+nosort

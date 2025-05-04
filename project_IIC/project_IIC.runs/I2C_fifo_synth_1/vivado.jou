@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat May  3 20:36:00 2025
+# Process ID: 5336
+# Current directory: C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.runs/I2C_fifo_synth_1
+# Command line: vivado.exe -log I2C_fifo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_fifo.tcl
+# Log file: C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.runs/I2C_fifo_synth_1/I2C_fifo.vds
+# Journal file: C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.runs/I2C_fifo_synth_1\vivado.jou
+# Running On        :DESKTOP-NDA5VSL
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+# CPU Frequency     :1997 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16972 MB
+# Swap memory       :2952 MB
+# Total Virtual     :19925 MB
+# Available Virtual :11068 MB
+#-----------------------------------------------------------
+source I2C_fifo.tcl -notrace

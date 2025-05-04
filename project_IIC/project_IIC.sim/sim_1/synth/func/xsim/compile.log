@@ -1,0 +1,28 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.sim/sim_1/synth/func/xsim/tb_IIC_Receiver_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'I2C_receiver'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_shiftregister'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_blk_mem_gen_prim_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_rd_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_rd_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_reset_blk_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_wr_bin_cntr'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_wr_status_flags_ss'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_blk_mem_gen_prim_width'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_rd_logic'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_wr_logic'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_blk_mem_gen_generic_cstr'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_blk_mem_gen_top'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_blk_mem_gen_v8_4_8_synth'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_blk_mem_gen_v8_4_8'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_memory'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_fifo_generator_ramfifo'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_fifo_generator_top'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_fifo_generator_v13_2_10_synth'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo_fifo_generator_v13_2_10'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'I2C_top'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-2987] 'i2c_test' is not compiled in library 'xil_defaultlib' [C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd:24]
+INFO: [VRFC 10-3107] analyzing entity 'tb_IIC_Receiver'
+ERROR: [VRFC 10-9458] unit 'tb_iic_receiver' is ignored due to previous errors [C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd:34]
+INFO: [VRFC 10-8704] VHDL file 'C:/Users/worbb/Desktop/IMA/FPGA/project_IIC/project_IIC.srcs/sim_1/new/tb_IIC_Receiver.vhd' is ignored due to errors
