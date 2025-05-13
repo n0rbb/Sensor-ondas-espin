@@ -31,9 +31,9 @@ entity Spartan_SWS is
         -- User button -- Reset
         BTN               : in std_logic_vector(1 downto 0);
 
-        -- Communications inteface -RS232
-        UART_RX           : in std_logic;
-        UART_TX           : out std_logic;
+        -- Communications inteface -I2C
+        I2C_SCL           : in std_logic;
+        I2C_SDA           : inout std_logic;
 
         -- LEDs for testing and debugging
         LED               : out std_logic_vector(2 downto 0)
@@ -58,8 +58,8 @@ architecture SWS_Behavior of Spartan_SWS is
             CLK_PORT   : in std_logic;
             RESET      : in std_logic;
         
-            RS232_RX    : in std_logic;
-            RS232_TX    : out std_logic;
+            I2C_SCL     : in std_logic;
+            I2C_SDA     : inout std_logic;
         
             LED_PORT    : out std_logic_vector(2 downto 0)
     
@@ -74,7 +74,7 @@ architecture SWS_Behavior of Spartan_SWS is
 
     signal reset       : std_logic;
 
-    signal rd, td      : std_logic;
+    signal scl, sda      : std_logic;
 
     signal led_out     : std_logic_vector(2 downto 0); -- Keep 1 bit per LED
 
@@ -96,8 +96,8 @@ architecture SWS_Behavior of Spartan_SWS is
                 CLK_PORT    => clk_fpga,
                 RESET       => reset,
             
-                RS232_RX    => rd,
-                RS232_TX    => td,
+                I2C_SCL    => scl,
+                I2C_SDA    => sda,
             
                 LED_PORT    => led_out
             );
@@ -106,8 +106,8 @@ architecture SWS_Behavior of Spartan_SWS is
         clk_fpga    <= CLK_SOURCE;
         reset       <= not(BTN(0)); --Reset active low
     
-        rd          <= UART_RX;
-        UART_TX     <= td;
+        scl <= I2C_SCL;
+        sda <= I2C_SDA;
     
         LED         <= led_out;
 

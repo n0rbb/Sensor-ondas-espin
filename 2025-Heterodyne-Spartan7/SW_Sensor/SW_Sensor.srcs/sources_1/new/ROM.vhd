@@ -45,19 +45,21 @@ architecture ROM_Behavior of ROM is
     constant W8  : std_logic_vector(11 downto 0) := X"000";
     constant W9  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & SW & SRC_ACC & DST_MEM;
     constant W10 : std_logic_vector(11 downto 0) := X"0" & NEW_INST;
-    constant W11 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_MEM & DST_A;
-    constant W12 : std_logic_vector(11 downto 0) := X"0" & DMA_RX_BUFFER_MSB;
-    constant W13 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_B; 
-    constant W14 : std_logic_vector(11 downto 0) := X"04C"; --L
-    constant W15 : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_CMPE;
-    constant W16 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_COND;
-    constant W17 : std_logic_vector(11 downto 0) := LED;
-    constant W18 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_UNCOND;
-    constant W19 : std_logic_vector(11 downto 0) := ERR;
+    constant W11 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_UNCOND;
+    constant W12 : std_logic_vector(11 downto 0) := LED;
+--    constant W11 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_MEM & DST_A;
+--    constant W12 : std_logic_vector(11 downto 0) := X"0" & DMA_RX_BUFFER_MSB;
+--    constant W13 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_B; 
+--    constant W14 : std_logic_vector(11 downto 0) := X"04C"; --L
+--    constant W15 : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_CMPE;
+--    constant W16 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_COND;
+--    constant W17 : std_logic_vector(11 downto 0) := LED;
+--    constant W18 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_UNCOND;
+--    constant W19 : std_logic_vector(11 downto 0) := INI; --ERR
     
     -- #LED
     constant W20 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_MEM & DST_A;
-    constant W21 : std_logic_vector(11 downto 0) := X"0" & DMA_RX_BUFFER_MID;
+    constant W21 : std_logic_vector(11 downto 0) := X"0" & DMA_RX_BUFFER_MSB;
     constant W22 : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_ASCII2BIN;
     constant W23 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_ACC & DST_IDX;
     constant W24 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_ACC & DST_A;
@@ -65,7 +67,7 @@ architecture ROM_Behavior of ROM is
     constant W26 : std_logic_vector(11 downto 0) := X"002";
     constant W27 : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_CMPG;
     constant W28 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_COND;
-    constant W29 : std_logic_vector(11 downto 0) := ERR;
+    constant W29 : std_logic_vector(11 downto 0) := INI; --ERR
     constant W30 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_MEM & DST_A;
     constant W31 : std_logic_vector(11 downto 0) := X"0" & DMA_RX_BUFFER_LSB;
     constant W32 : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_ASCII2BIN;
@@ -74,11 +76,11 @@ architecture ROM_Behavior of ROM is
     constant W35 : std_logic_vector(11 downto 0) := X"001";
     constant W36 : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_CMPG;
     constant W37 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_COND;
-    constant W38 : std_logic_vector(11 downto 0) := ERR;
+    constant W38 : std_logic_vector(11 downto 0) := INI; --ERR
     constant W39 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & SW & SRC_ACC & DST_IDX_MEM;
     constant W40 : std_logic_vector(11 downto 0) := X"0" & LED_BASE;
     constant W41 : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_UNCOND;
-    constant W42 : std_logic_vector(11 downto 0) := SOK;
+    constant W42 : std_logic_vector(11 downto 0) := INI; --SOK
 
     -- #SOK
     constant W43 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_ACC;
@@ -125,13 +127,13 @@ architecture ROM_Behavior of ROM is
                 W10 when X"00A",
                 W11 when X"00B",
                 W12 when X"00C",
-                W13 when X"00D",
-                W14 when X"00E",
-                W15 when X"00F",
-                W16 when X"010",
-                W17 when X"011",
-                W18 when X"012",
-                W19 when X"013",
+--                W13 when X"00D",
+--                W14 when X"00E",
+--                W15 when X"00F",
+--                W16 when X"010",
+--                W17 when X"011",
+--                W18 when X"012",
+--                W19 when X"013",
                 W20 when X"014",
                 W21 when X"015",
                 W22 when X"016",

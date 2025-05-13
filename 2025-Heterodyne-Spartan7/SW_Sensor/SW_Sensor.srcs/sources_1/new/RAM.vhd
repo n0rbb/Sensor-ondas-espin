@@ -52,7 +52,7 @@ architecture RAM_Behavior of RAM is
             begin
                 if RESET = '0' then
                     contents_ram(to_integer(unsigned(DMA_RX_BUFFER_MSB))) <= X"00";
-                    contents_ram(to_integer(unsigned(DMA_RX_BUFFER_MID))) <= X"00";
+                    -- contents_ram(to_integer(unsigned(DMA_RX_BUFFER_MID))) <= X"00";
                     contents_ram(to_integer(unsigned(DMA_RX_BUFFER_LSB))) <= X"00";
                     contents_ram(to_integer(unsigned(NEW_INST))) <= X"00";
                     contents_ram(to_integer(unsigned(DMA_TX_BUFFER_MSB))) <= X"00";

@@ -1,0 +1,2 @@
+I2C_fifo.v,verilog,xil_defaultlib,../../../../SW_Sensor.gen/sources_1/ip/I2C_fifo/sim/I2C_fifo.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

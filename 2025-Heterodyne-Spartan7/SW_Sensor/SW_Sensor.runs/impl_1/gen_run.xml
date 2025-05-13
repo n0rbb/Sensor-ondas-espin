@@ -4,82 +4,68 @@
   <File Type="PA-TCL" Name="Spartan_SWS.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Spartan_SWS_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Spartan_SWS_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="Spartan_SWS_rqa_opted.pb"/>
+  <File Type="BITSTR-MSK" Name="Spartan_SWS.msk"/>
+  <File Type="ROUTE-CLK" Name="Spartan_SWS_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Spartan_SWS.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Spartan_SWS_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Spartan_SWS.bit"/>
+  <File Type="BG-DRC" Name="Spartan_SWS.drc"/>
+  <File Type="BG-BGN" Name="Spartan_SWS.bgn"/>
+  <File Type="BG-BIN" Name="Spartan_SWS.bin"/>
+  <File Type="BITSTR-RBT" Name="Spartan_SWS.rbt"/>
+  <File Type="BITSTR-NKY" Name="Spartan_SWS.nky"/>
+  <File Type="BITSTR-BMM" Name="Spartan_SWS_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="Spartan_SWS.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Spartan_SWS_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="Spartan_SWS_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="Spartan_SWS_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="Spartan_SWS_opt.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Spartan_SWS_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Spartan_SWS.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Spartan_SWS_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Spartan_SWS.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="Spartan_SWS_boot.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="Spartan_SWS.npi"/>
   <File Type="OPT-DRC" Name="Spartan_SWS_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="Spartan_SWS.rbd"/>
   <File Type="OPT-HWDEF" Name="Spartan_SWS.hwdef"/>
-  <File Type="PWROPT-DCP" Name="Spartan_SWS_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="Spartan_SWS_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Spartan_SWS_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="Spartan_SWS_placed.dcp"/>
   <File Type="PLACE-IO" Name="Spartan_SWS_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="Spartan_SWS_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Spartan_SWS_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Spartan_SWS_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="Spartan_SWS_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Spartan_SWS_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Spartan_SWS_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="Spartan_SWS.bin"/>
-  <File Type="PLACE-TIMING" Name="Spartan_SWS_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="Spartan_SWS_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="Spartan_SWS_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Spartan_SWS_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="Spartan_SWS.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Spartan_SWS_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="Spartan_SWS_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Spartan_SWS_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="Spartan_SWS.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="Spartan_SWS_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Spartan_SWS_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Spartan_SWS_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Spartan_SWS_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="Spartan_SWS_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="Spartan_SWS_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="Spartan_SWS_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Spartan_SWS_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Spartan_SWS_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Spartan_SWS_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="Spartan_SWS_rqs_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Spartan_SWS_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="Spartan_SWS_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Spartan_SWS_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Spartan_SWS_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Spartan_SWS_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Spartan_SWS_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="Spartan_SWS_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="Spartan_SWS_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="Spartan_SWS_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="Spartan_SWS_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="Spartan_SWS_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="Spartan_SWS_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="Spartan_SWS_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="Spartan_SWS_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Spartan_SWS_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Spartan_SWS_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Spartan_SWS_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Spartan_SWS_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Spartan_SWS_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Spartan_SWS_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Spartan_SWS_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Spartan_SWS_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Spartan_SWS_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Spartan_SWS_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Spartan_SWS_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="Spartan_SWS.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Spartan_SWS_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Spartan_SWS_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="Spartan_SWS.nky"/>
-  <File Type="BITSTR-BMM" Name="Spartan_SWS_bd.bmm"/>
+  <File Type="ROUTE-DRC-RPX" Name="Spartan_SWS_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Spartan_SWS_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="Spartan_SWS.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="Spartan_SWS_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="Spartan_SWS_pld.pdi"/>
   <File Type="RCFI_FILE" Name="Spartan_SWS.rcfi"/>
   <File Type="CFI_FILE" Name="Spartan_SWS.cfi"/>
   <File Type="RNPI_FILE" Name="Spartan_SWS.rnpi"/>
-  <File Type="NPI_FILE" Name="Spartan_SWS.npi"/>
-  <File Type="RBD_FILE" Name="Spartan_SWS.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Spartan_SWS.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="Spartan_SWS.sysdef"/>
-  <File Type="BG-BGN" Name="Spartan_SWS.bgn"/>
-  <File Type="BG-DRC" Name="Spartan_SWS.drc"/>
-  <File Type="RDI-RDI" Name="Spartan_SWS.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="Spartan_SWS_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="Spartan_SWS_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -215,6 +201,7 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="RS232_fifo"/>
 </GenRun>

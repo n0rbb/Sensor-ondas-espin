@@ -30,11 +30,11 @@ package MEM_pkg is
 
     --Address names
     constant DMA_RX_BUFFER_MSB : std_logic_vector(7 downto 0) := X"00";
-    constant DMA_RX_BUFFER_MID : std_logic_vector(7 downto 0) := X"01";
-    constant DMA_RX_BUFFER_LSB : std_logic_vector(7 downto 0) := X"02";
-    constant NEW_INST          : std_logic_vector(7 downto 0) := X"03";
-    constant DMA_TX_BUFFER_MSB : std_logic_vector(7 downto 0) := X"04";
-    constant DMA_TX_BUFFER_LSB : std_logic_vector(7 downto 0) := X"05";  
+    -- constant DMA_RX_BUFFER_MID : std_logic_vector(7 downto 0) := X"01";
+    constant DMA_RX_BUFFER_LSB : std_logic_vector(7 downto 0) := X"01";
+    constant NEW_INST          : std_logic_vector(7 downto 0) := X"02";
+    constant DMA_TX_BUFFER_MSB : std_logic_vector(7 downto 0) := X"03";
+    constant DMA_TX_BUFFER_LSB : std_logic_vector(7 downto 0) := X"04";  
     constant LED_BASE          : std_logic_vector(7 downto 0) := X"06"; --06, 07, 08
     constant DATA_BASE         : std_logic_vector(7 downto 0) := X"10";
 

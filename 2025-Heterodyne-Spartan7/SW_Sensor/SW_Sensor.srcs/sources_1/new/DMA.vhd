@@ -121,8 +121,8 @@ architecture DMA_Behavior of DMA is
                         if byte_counter_rx = 0 then
                             ADDRESS      <= DMA_RX_BUFFER_MSB;
 
-                        elsif byte_counter_rx = 1 then
-                            ADDRESS      <= DMA_RX_BUFFER_MID;
+--                        elsif byte_counter_rx = 1 then
+--                            ADDRESS      <= DMA_RX_BUFFER_MID;
 
                         else
                             ADDRESS      <= DMA_RX_BUFFER_LSB;
@@ -140,8 +140,8 @@ architecture DMA_Behavior of DMA is
                         if byte_counter_rx = 0 then
                             next_state   <= Idle;
 
-                        elsif byte_counter_rx = 1 then
-                            next_state   <= Idle; --Cambiar por idle 
+--                        elsif byte_counter_rx = 1 then
+--                            next_state   <= Idle; --Cambiar por idle 
 
                         else
                             next_state   <= EndWrite;
@@ -179,7 +179,7 @@ architecture DMA_Behavior of DMA is
             
                         if (TX_RDY = '0' or ACK_OUT = '0') then
                             next_state <= waiting;
-                        elsif (byte_counter_tx < 2) then
+                        elsif (byte_counter_tx < 2) then 
                             next_state <= LoadTransmitter;
                         else  --BCTX 1
                             next_state <= EndTransmitter;

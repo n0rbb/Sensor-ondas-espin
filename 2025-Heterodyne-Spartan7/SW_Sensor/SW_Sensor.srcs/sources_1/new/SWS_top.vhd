@@ -39,7 +39,7 @@ end SWS_top;
 architecture SWS_top_Behavior of SWS_top is
 
     -- Component declaration
-    -- RS232
+    -- I2C interface
     
     component I2C is
         port (
@@ -207,7 +207,7 @@ architecture SWS_top_Behavior of SWS_top is
     begin
 
         -- Component port mapping 
-        I2C_INTF : I2C
+        I2C_CP : I2C
             port map(
                 CLK_PORT    => CLK_PORT,
                 RESET       => RESET,
