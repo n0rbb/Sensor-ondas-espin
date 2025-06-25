@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1745748410" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Spartan_SWS.dcp">
-  <File Type="PA-TCL" Name="Spartan_SWS.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Spartan_SWS_drc_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1745748410" LaunchIncrCheckpoint="$PPRDIR/../../../FPGA/SW_Sensor/SW_Sensor.srcs/utils_1/imports/synth_1/Spartan_SWS.dcp">
   <File Type="REPORTS-TCL" Name="Spartan_SWS_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Spartan_SWS.vds"/>
   <File Type="RDS-UTIL" Name="Spartan_SWS_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Spartan_SWS_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="Spartan_SWS.tcl"/>
+  <File Type="RDS-RDS" Name="Spartan_SWS.vds"/>
   <File Type="RDS-DCP" Name="Spartan_SWS.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Spartan_SWS_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Spartan_SWS_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/INST_pkg.vhd">

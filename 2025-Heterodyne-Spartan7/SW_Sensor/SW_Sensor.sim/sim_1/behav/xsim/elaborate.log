@@ -1,7 +1,7 @@
-Vivado Simulator v2024.1
+Vivado Simulator v2025.1.0
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_10 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_Spartan_SWS_behav xil_defaultlib.tb_Spartan_SWS xil_defaultlib.glbl -log elaborate.log 
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_Spartan_SWS_behav xil_defaultlib.tb_Spartan_SWS xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -23,9 +23,9 @@ Compiling module xil_defaultlib.glbl
 Compiling architecture transmitter_behavior of entity xil_defaultlib.RS232_transmitter [rs232_transmitter_default]
 Compiling architecture receiver_behavior of entity xil_defaultlib.RS232_receiver [rs232_receiver_default]
 Compiling architecture sr_behavior of entity xil_defaultlib.RS232_shiftregister [rs232_shiftregister_default]
-Compiling module fifo_generator_v13_2_10.fifo_generator_v13_2_10_bhv_ver_...
-Compiling module fifo_generator_v13_2_10.fifo_generator_v13_2_10_CONV_VER...
-Compiling module fifo_generator_v13_2_10.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v13_2_13.fifo_generator_v13_2_13_bhv_ver_...
+Compiling module fifo_generator_v13_2_13.fifo_generator_v13_2_13_CONV_VER...
+Compiling module fifo_generator_v13_2_13.fifo_generator_vlog_beh(C_COMMON...
 Compiling module xil_defaultlib.RS232_fifo
 Compiling architecture rs232_behavior of entity xil_defaultlib.RS232 [rs232_default]
 Compiling architecture dma_behavior of entity xil_defaultlib.DMA [dma_default]

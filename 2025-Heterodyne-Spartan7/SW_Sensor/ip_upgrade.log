@@ -1,0 +1,16 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.1 (win64) Build 6140274 Thu May 22 00:12:29 MDT 2025
+| Date         : Wed Jun 25 11:31:56 2025
+| Host         : DESKTOP-NDA5VSL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7s25csga225-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'RS232_fifo'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of RS232_fifo (xilinx.com:ip:fifo_generator:13.2) from (Rev. 10) to (Rev. 13)
+

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.gen/sources_1/ip/RS232_fifo/sim/RS232_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RS232_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
