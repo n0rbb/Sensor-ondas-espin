@@ -5,7 +5,6 @@
    <db_ref_list>
       <db_ref path="tb_Spartan_SWS_behav.wdb" id="1">
          <top_modules>
-            <top_module name="glbl" />
             <top_module name="inst_pkg" />
             <top_module name="mem_pkg" />
             <top_module name="rs232_test" />
@@ -14,15 +13,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
-      <ZoomEndTime time="4.000000001 ms"></ZoomEndTime>
-      <Cursor1Time time="2.874154263 ms"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="4,000.000000 us"></ZoomEndTime>
+      <Cursor1Time time="4,000.000000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="195"></NameColumnWidth>
-      <ValueColumnWidth column_width="112"></ValueColumnWidth>
+      <NameColumnWidth column_width="176"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="33" />
+   <WVObjectSize size="56" />
    <wvobject fp_name="/tb_Spartan_SWS/clk12mhz" type="logic">
       <obj_property name="ElementShortName">clk12mhz</obj_property>
       <obj_property name="ObjectShortName">clk12mhz</obj_property>
@@ -47,10 +46,6 @@
       <obj_property name="ElementShortName">rd</obj_property>
       <obj_property name="ObjectShortName">rd</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_Spartan_SWS/clkperiod" type="other">
-      <obj_property name="ElementShortName">clkperiod</obj_property>
-      <obj_property name="ObjectShortName">clkperiod</obj_property>
-   </wvobject>
    <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RAM_CP/LED_STAT" type="array">
       <obj_property name="ElementShortName">LED_STAT[2:0]</obj_property>
       <obj_property name="ObjectShortName">LED_STAT[2:0]</obj_property>
@@ -63,9 +58,21 @@
       <obj_property name="ElementShortName">current_state</obj_property>
       <obj_property name="ObjectShortName">current_state</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/CPU_CP/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
    <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/ROM_CP/PC" type="array">
       <obj_property name="ElementShortName">PC[11:0]</obj_property>
       <obj_property name="ObjectShortName">PC[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/CPU_CP/int_ack_flag" type="logic">
+      <obj_property name="ElementShortName">int_ack_flag</obj_property>
+      <obj_property name="ObjectShortName">int_ack_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/CPU_CP/INTERRUPT_ACK" type="logic">
+      <obj_property name="ElementShortName">INTERRUPT_ACK</obj_property>
+      <obj_property name="ObjectShortName">INTERRUPT_ACK</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/ALU_CP/a_reg" type="array">
       <obj_property name="ElementShortName">a_reg[7:0]</obj_property>
@@ -91,9 +98,21 @@
       <obj_property name="ElementShortName">b_reg[7:0]</obj_property>
       <obj_property name="ObjectShortName">b_reg[7:0]</obj_property>
    </wvobject>
-   <wvobject type="divider" fp_name="divider32">
+   <wvobject type="divider" fp_name="divider585">
       <obj_property name="label">RAM</obj_property>
       <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RAM_CP/DATABUS" type="array">
+      <obj_property name="ElementShortName">DATABUS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DATABUS[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RAM_CP/WRITE_EN" type="logic">
+      <obj_property name="ElementShortName">WRITE_EN</obj_property>
+      <obj_property name="ObjectShortName">WRITE_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RAM_CP/OE" type="logic">
+      <obj_property name="ElementShortName">OE</obj_property>
+      <obj_property name="ObjectShortName">OE</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RAM_CP/contents_ram[5]" type="array">
       <obj_property name="ElementShortName">[5][7:0]</obj_property>
@@ -127,9 +146,81 @@
       <obj_property name="ElementShortName">RCVD_DATA[7:0]</obj_property>
       <obj_property name="ObjectShortName">RCVD_DATA[7:0]</obj_property>
    </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/DMA_CP/current_state" type="other">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/DMA_CP/DMA_ACK" type="logic">
+      <obj_property name="ElementShortName">DMA_ACK</obj_property>
+      <obj_property name="ObjectShortName">DMA_ACK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/DMA_CP/DMA_RQ" type="logic">
+      <obj_property name="ElementShortName">DMA_RQ</obj_property>
+      <obj_property name="ObjectShortName">DMA_RQ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/DMA_CP/DMA_INTERRUPT" type="logic">
+      <obj_property name="ElementShortName">DMA_INTERRUPT</obj_property>
+      <obj_property name="ObjectShortName">DMA_INTERRUPT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/CPU_CP/int_ack_flag" type="logic">
+      <obj_property name="ElementShortName">int_ack_flag</obj_property>
+      <obj_property name="ObjectShortName">int_ack_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/DMA_CP/INTERRUPT_ACK" type="logic">
+      <obj_property name="ElementShortName">INTERRUPT_ACK</obj_property>
+      <obj_property name="ObjectShortName">INTERRUPT_ACK</obj_property>
+   </wvobject>
    <wvobject type="divider" fp_name="divider65">
       <obj_property name="label">RS232</obj_property>
       <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/contents_fifo" type="array">
+      <obj_property name="ElementShortName">contents_fifo[3:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">contents_fifo[3:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/EMPTY" type="logic">
+      <obj_property name="ElementShortName">EMPTY</obj_property>
+      <obj_property name="ObjectShortName">EMPTY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/FULL" type="logic">
+      <obj_property name="ElementShortName">FULL</obj_property>
+      <obj_property name="ObjectShortName">FULL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/count" type="array">
+      <obj_property name="ElementShortName">count[2:0]</obj_property>
+      <obj_property name="ObjectShortName">count[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/DIN" type="array">
+      <obj_property name="ElementShortName">DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/RD_EN" type="logic">
+      <obj_property name="ElementShortName">RD_EN</obj_property>
+      <obj_property name="ObjectShortName">RD_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/write_ptr" type="array">
+      <obj_property name="ElementShortName">write_ptr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">write_ptr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/read_ptr" type="array">
+      <obj_property name="ElementShortName">read_ptr[1:0]</obj_property>
+      <obj_property name="ObjectShortName">read_ptr[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/clk12mhz" type="logic">
+      <obj_property name="ElementShortName">clk12mhz</obj_property>
+      <obj_property name="ObjectShortName">clk12mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/WR_EN" type="logic">
+      <obj_property name="ElementShortName">WR_EN</obj_property>
+      <obj_property name="ObjectShortName">WR_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/RD_EN" type="logic">
+      <obj_property name="ElementShortName">RD_EN</obj_property>
+      <obj_property name="ObjectShortName">RD_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/FIFO/DIN" type="array">
+      <obj_property name="ElementShortName">DIN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DIN[7:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_Spartan_SWS/Sensor_UT/UUT_SWS/RS232_CP/Receiver/data_count" type="array">
       <obj_property name="ElementShortName">data_count[3:0]</obj_property>

@@ -84,7 +84,8 @@ package INST_pkg is
     --  op_and, op_or, op_xor,                -- logic operations
       op_cmpe, op_cmpl, op_cmpg,            -- compare operations
       op_ascii2bin, -- op_bin2ascii,           -- conversion operations
-      op_oeacc);                            -- output enable
+      op_oeacc, 
+      op_savecontext, op_loadcontext);                            -- output enable
 
     
 end INST_pkg;

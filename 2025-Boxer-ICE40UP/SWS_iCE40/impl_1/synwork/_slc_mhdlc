@@ -1,0 +1,12 @@
+|work.RS232_transmitter|work.RS232_transmitter.transmitter_behavior|
+|work.RS232_receiver|work.RS232_receiver.receiver_behavior|
+|work.RS232_shiftregister|work.RS232_shiftregister.sr_behavior|
+|work.RS232_fifo|work.RS232_fifo.fifo_behaviour|
+|work.RS232|work.RS232.rs232_behavior|
+|work.DMA|work.DMA.dma_behavior|
+|work.RAM|work.RAM.ram_behavior|
+|work.ALU|work.ALU.alu_behavior|
+|work.ROM|work.ROM.rom_behavior|
+|work.CPU|work.CPU.cpu_behavior|
+|work.SWS_top|work.SWS_top.sws_top_behavior|
+|work.iCE_SWS|work.iCE_SWS.sws_behavior|

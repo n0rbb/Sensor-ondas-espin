@@ -49,6 +49,9 @@ entity DMA is
         SEND_COMM 	: in std_logic;
         DMA_RQ 		: out std_logic;
         READY 		: out std_logic;	
+        
+        INTERRUPT_ACK : in std_logic;
+        DMA_INTERRUPT : out std_logic;
 
         DATABUS 	: inout std_logic_vector(7 downto 0)
     );
@@ -62,8 +65,9 @@ architecture DMA_Behavior of DMA is
     signal byte_counter_rx, byte_counter_tx : integer;
    
     begin
-        DMA_FSM : process(current_state, byte_counter_rx, byte_counter_tx, RCVD_DATA, RX_EMPTY, TX_RDY, ACK_OUT, SEND_COMM, DMA_ACK, DATABUS)
+        DMA_FSM : process(current_state, byte_counter_rx, byte_counter_tx, RCVD_DATA, RX_EMPTY, TX_RDY, ACK_OUT, SEND_COMM, DMA_ACK, DATABUS, INTERRUPT_ACK)
             begin
+                DMA_INTERRUPT <= '0';
                 case current_state is
                     when Idle => 
                         DATA_READ   <= '0';
@@ -148,20 +152,28 @@ architecture DMA_Behavior of DMA is
 
                         end if;
 
-                    when EndWrite => --Escribe FF en la dirección NEW_INST y vuelve a idle
+                    when EndWrite => --Escribe FF en la dirección NEW_INST y genero la interrupción
+                        
+                        DMA_INTERRUPT <= '1';
+                        
                         DATA_READ    <= '0';
                         VALID_D      <= '1';
-            
-                        ADDRESS <= NEW_INST;
-                        WRITE_EN <= '1';
+                        
+                        ADDRESS <= (others => '0');
+                        WRITE_EN <= '0';
                         OE <= '1';
             
-                        DMA_RQ <= '1';
+                        --DMA_RQ <= '1';
+                        DMA_RQ <= '0';
                         READY <= '1';
             
-                        DATABUS <= X"FF";
+                        DATABUS <= (others => 'Z');
 
-                        next_state <= Idle;
+                        if INTERRUPT_ACK = '0' then --ESPERAR A QUE SE CERTIFIQUE LA ATENCIÓN A LA INTERRUPCIÓN
+                            next_state <= EndWrite;
+                        else 
+                            next_state <= Idle; --CAMBIAR A IDLE CUANDO ESTÉ TODO EN ORDEN
+                        end if;
             
                     --FIN DE LA TAREA DE ESCRITURA EN RAM. TAREA DE LECTURA DE LA RAM.
                     when Waiting =>  --Estado para comprobar cómo está el transmisor y preparar la lectura RAM

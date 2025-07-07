@@ -1,0 +1,163 @@
+%%% protect protected_file
+#OPTIONS:"|-bldtbl|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-sdff_counter|-nram|-divnmod|-nostructver|-lattice|-ice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\bin64\\c_vhdl.exe":1727995157
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\location.map":1730962033
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\std.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\std1164.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\numeric.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\umr_capim.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\arith.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\unsigned.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\ip\\pmi\\pmi_iCE40UP.vhd":1648538958
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\INST_pkg.vhd":1748425321
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\MEM_pkg.vhd":1748425427
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_transmitter.vhd":1748424704
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_shiftregister.vhd":1748424761
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_receiver.vhd":1748424822
+#CUR:"C:\\lscc\\radiant\\2024.2\\cae_library\\synthesis\\vhdl\\iCE40UP.vhd":1534890897
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_fifo.vhd":1751025862
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232.vhd":1750678527
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\ALU.vhd":1748425068
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\CPU.vhd":1748425098
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\DMA.vhd":1748425202
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RAM.vhd":1750755272
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\ROM.vhd":1748432398
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\SWS_top.vhd":1748424662
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\iCE40_SWS.vhd":1748432516
+@E8lFkRDCH_B 1
+W1DsHLNRs$I	Fs
+bHMkB0Rp1i_mBz) 
+R4HkMb0aRAh
+R.HkMb0qRz))a_X
+R4Fbk0kz0Rq_)aa4XR
+0FkbRk0pR 7dM
+C88lFk
+DClkF8D1CRW01_FDb
+HNLssI$RF
+s	HkMb0pRBim_u)4aR
+bHMk)0R a1 RH4
+M0bkR.)1d)._X
+R4Fbk0k)0R1..d_RaX4k
+F00bkR7p _)uma
+RdClM8FD8kCF
+l8CkDRv)m
+LDHs$NsRsIF	k
+F00bkR1QhaB)zahQmR
+4.HkMb0BRuR
+4.ClM8FD8kCF
+l8CkDRv)q
+LDHs$NsRsIF	M
+HbRk0B_piuam)RH4
+M0bkR1)  4aR
+bHMkW0R) Qa_R h4M
+HbRk0m4 R
+bHMkq0R7 7)1U1R
+FHMk70RqAaqzU1R
+0FkbRk0p_ 71aaqRCd
+MF8l8CkD
+8lFkRDC7
+vqDsHLNRs$I	Fs
+bHMkB0Rpui_mR)a4M
+HbRk0)  1a
+R4HkMb0BR)e77_qRaqUM
+HbRk0)wX_zRpp4M
+HbRk0) X_vYuaRF4
+kk0b0qR7a)q_ Rq74M
+HbRk0q_BimRza4M
+HbRk0a)X_74YR
+0FkbRk0eQqp7R_74k
+F00bkR_aX7qqaRFU
+kk0b07Rq71) 1
+RUFbk0kW0R) Qa_R h4k
+F00bkRRm 4M
+HbRk07_vqqRBi4M
+HbRk017 h_vBmv
+R4Fbk0k70Rv)q_T
+R4Fbk0k)0R Yq7RH4
+M0FkRa7qq1AzRCU
+MF8l8CkD
+8lFkRDCB
+uzDsHLNRs$I	Fs
+bHMkB0Rpui_mR)a4M
+HbRk0)  1a
+R4HkMb0mR)vh_Q14aR.k
+F00bkRv)m_RuB4F.
+kk0b0qR)v7_q7U)R
+0FkbRk0)_qvWa)Q 
+R4Fbk0k)0Rqmv_ 
+R4HkMb0vR7qT_)RH4
+M0bkRq7v_q) 74YR
+0FkbRk07_vqqRBi4k
+F00bkRq7v_h1 7
+R4Fbk0kq0Rpmz_udR4
+bHMkQ0RhX7 _t) RHU
+M0bkRqwptR_Z4M
+HbRk0wtpq_4 R
+FHMk70RqAaqzU1R
+8CMlkF8DlC
+FD8kCpRqzH
+DLssN$FRIsH	
+M0bkRiBp_)uma
+R4HkMb0 R)1R a4M
+HbRk0q_pzm4uRdk
+F00bkR7Qh )X_ UtR
+0FkbRk0wtpq_4ZR
+0FkbRk0wtpq_4 R
+FHMk70RqAaqzU1R
+8CMlkF8DlC
+FD8kC1R).
+d.DsHLNRs$I	Fs
+bHMkB0Rpui_mR)a4M
+HbRk0)  1a
+R4HkMb0qR7aQq_h
+RUHkMb0qRep_Q77
+R4Fbk0kq0RBQi_h
+R4Fbk0ka0RX7_)Y
+R4HkMb07R)RF4
+kk0b07RaRH4
+M0bkRa7qq _)q47R
+0FkbRk07qqa_amzRFU
+kk0b0zRwp4pR
+0FkbRk0 avuY
+R4ClM8FD8kCF
+l8CkDR.)1dV._H
+VFDsHLNRs$I	Fs
+bHMk)0R a1 RH4
+M0bkRiBp_)uma
+R4HkMb0)RW_R h4M
+HbRk07RQhUM
+HbRk0) 7_h
+R4Fbk0k70RmRzaUk
+F00bkRpwzp
+R4Fbk0k 0RvYuaRC4
+MF8l8CkD
+8lFkRDC)d1..C_sOPCHCDs
+HNLssI$RF
+s	HkMb0pRBim_u)4aR
+bHMk)0R a1 RH4
+M0bkR_)XARQa4k
+F00bkRpeqQm7_z4aR
+0FkbRk0B m7_amzRF4
+kk0b0aR1m_) mRza4M
+C88lFk
+DClkF8D)CR1..d_H#EVC0so0H#CDs
+HNLssI$RF
+s	HkMb0pRBim_u)4aR
+bHMk)0R a1 RH4
+M0bkRq hARp 4M
+HbRk07
+R4Fbk0kT0RRCU
+MF8l8CkD
+8lFkRDC)d1..s_0NlM#HC00sH
+DLssN$FRIsH	
+M0bkRiBp_)uma
+R4HkMb0 R)1R a4M
+HbRk01)aqa
+R4HkMb0qR7aUqR
+0FkbRk0 Rma4k
+F00bkR_aXARQa4M
+C88lFk
+DC
+
+@ 

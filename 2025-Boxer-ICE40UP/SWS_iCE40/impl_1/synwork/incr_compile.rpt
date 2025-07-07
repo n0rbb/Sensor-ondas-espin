@@ -1,0 +1,104 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 364R, Built Oct  3 2024 00:23:20, @
+
+Modified Files: 15
+FID:  path (prevtimestamp, timestamp)
+12       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd (N/A, 2025-05-28 11:37:48)
+13       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd (N/A, 2025-05-28 11:38:18)
+14       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd (N/A, 2025-05-28 11:40:02)
+15       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd (N/A, 2025-05-28 11:42:01)
+16       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\MEM_pkg.vhd (N/A, 2025-05-28 11:43:47)
+17       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd (N/A, 2025-06-24 10:54:32)
+18       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd (N/A, 2025-05-28 13:39:58)
+19       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd (N/A, 2025-06-23 13:35:27)
+20       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd (N/A, 2025-06-27 14:04:22)
+21       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd (N/A, 2025-05-28 11:33:42)
+22       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd (N/A, 2025-05-28 11:32:41)
+23       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd (N/A, 2025-05-28 11:31:44)
+24       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02)
+25       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56)
+0        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\rgbmap.vhd (2025-05-28 09:53:52, N/A)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 12
+MID:  lib.cell.view
+2        work.alu.alu_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd (N/A, 2025-05-28 11:37:48) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+4        work.cpu.cpu_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd (N/A, 2025-05-28 11:38:18) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+6        work.dma.dma_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd (N/A, 2025-05-28 11:40:02) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+8        work.ice_sws.sws_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (architecture and entity definition)
+10       work.ram.ram_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd (N/A, 2025-06-24 10:54:32) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+12       work.rom.rom_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd (N/A, 2025-05-28 13:39:58) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+14       work.rs232.rs232_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd (N/A, 2025-06-23 13:35:27) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+16       work.rs232_fifo.fifo_behaviour may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd (N/A, 2025-06-23 13:35:27) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd (N/A, 2025-06-27 14:04:22) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+18       work.rs232_receiver.receiver_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd (N/A, 2025-06-23 13:35:27) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd (N/A, 2025-05-28 11:33:42) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+20       work.rs232_shiftregister.sr_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd (N/A, 2025-06-23 13:35:27) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd (N/A, 2025-05-28 11:32:41) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+22       work.rs232_transmitter.transmitter_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd (N/A, 2025-06-23 13:35:27) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd (N/A, 2025-05-28 11:31:44) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (may instantiate this module)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+24       work.sws_top.sws_top_behavior may have changed because the following files changed:
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd (N/A, 2025-05-28 11:31:02) <-- (architecture and entity definition)
+                        C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd (N/A, 2025-05-28 13:41:56) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 11
+FID:  path (timestamp)
+1        C:\lscc\radiant\2024.2\cae_library\synthesis\vhdl\iCE40UP.vhd (2018-08-22 00:34:57)
+2        C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.vhd (2022-03-29 09:29:18)
+3        C:\lscc\radiant\2024.2\synpbase\lib\vhd\arith.vhd (2024-10-04 00:39:32)
+4        C:\lscc\radiant\2024.2\synpbase\lib\vhd\hyperents.vhd (2024-10-04 00:39:32)
+5        C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map (2024-11-07 07:47:13)
+6        C:\lscc\radiant\2024.2\synpbase\lib\vhd\numeric.vhd (2024-10-04 00:39:32)
+7        C:\lscc\radiant\2024.2\synpbase\lib\vhd\snps_haps_pkg.vhd (2024-10-04 00:39:32)
+8        C:\lscc\radiant\2024.2\synpbase\lib\vhd\std.vhd (2024-10-04 00:39:32)
+9        C:\lscc\radiant\2024.2\synpbase\lib\vhd\std1164.vhd (2024-10-04 00:39:32)
+10       C:\lscc\radiant\2024.2\synpbase\lib\vhd\umr_capim.vhd (2024-10-04 00:39:32)
+11       C:\lscc\radiant\2024.2\synpbase\lib\vhd\unsigned.vhd (2024-10-04 00:39:32)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

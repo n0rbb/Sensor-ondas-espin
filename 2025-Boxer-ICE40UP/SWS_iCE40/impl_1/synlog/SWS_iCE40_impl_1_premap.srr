@@ -1,0 +1,167 @@
+# Fri Jun 27 14:05:11 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 228R, Built Nov  4 2024 06:01:40, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
+
+Reading constraint file: C:\lscc\radiant\2024.2\scripts\tcl\flow\radiant_synplify_vars.tcl
+Reading constraint file: C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\impl_1.sdc
+@L: C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1_scck.rpt 
+See clock summary report "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 200MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+@N: BN362 :"c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\alu.vhd":129:20:129:21|Removing sequential instance flag_err_reg (in view: work.ALU(alu_behavior)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine current_state[0:3] (in view: work.RS232_transmitter(transmitter_behavior))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd":103:16:103:17|There are no possible illegal states for state machine current_state[0:3] (in view: work.RS232_transmitter(transmitter_behavior)); safe FSM implementation is not required.
+Encoding state machine current_state[0:3] (in view: work.RS232_receiver(receiver_behavior))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd":133:16:133:17|There are no possible illegal states for state machine current_state[0:3] (in view: work.RS232_receiver(receiver_behavior)); safe FSM implementation is not required.
+Encoding state machine current_state[0:7] (in view: work.DMA(dma_behavior))
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Encoding state machine current_state[0:6] (in view: work.CPU(cpu_behavior))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist iCE_SWS 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+
+Clock Summary
+******************
+
+          Start                  Requested     Requested     Clock        Clock          Clock
+Level     Clock                  Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------
+0 -       iCE_SWS|CLK_SOURCE     200.0 MHz     5.000         inferred     (multiple)     2265 
+==============================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                       Clock     Source               Clock Pin                         Non-clock Pin     Non-clock Pin
+Clock                  Load      Pin                  Seq Example                       Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------
+iCE_SWS|CLK_SOURCE     2265      CLK_SOURCE(port)     UUT_SWS.CPU_CP.tmp_reg[7:0].C     -                 -            
+=======================================================================================================================
+
+@W: MT530 :"c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd":103:16:103:17|Found inferred clock iCE_SWS|CLK_SOURCE which controls 2265 sequential elements including UUT_SWS.RS232_CP.Transmitter.current_state[1]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 2258 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ====================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                
+-------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       CLK_SOURCE          port                   2258       UUT_SWS.CPU_CP.current_state[0]
+=======================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 258MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 261MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Jun 27 14:05:14 2025
+
+###########################################################]

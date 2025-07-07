@@ -1,0 +1,4 @@
+-gui
+-msgset "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/promote.xml"
+
+-freq 0

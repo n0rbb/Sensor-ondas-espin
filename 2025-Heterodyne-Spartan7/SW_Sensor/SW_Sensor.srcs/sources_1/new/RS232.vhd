@@ -90,17 +90,17 @@ architecture RS232_Behavior of RS232 is
     -- FIFO
     component RS232_fifo is
         port (
-            srst        : in  std_logic;
-            clk         : in  std_logic;
+            RESET      	: in  std_logic;
+            CLK_PORT  	: in  std_logic;
 
-            wr_en       : in  std_logic;
-            din         : in  std_logic_VECTOR(7 downto 0);
+            WR_EN      	: in  std_logic;
+            DIN       	: in  std_logic_VECTOR(7 downto 0);
 
-            rd_en       : in  std_logic;
-            dout        : out std_logic_VECTOR(7 downto 0);
+            RD_EN     	: in  std_logic;
+            DOUT      	: out std_logic_VECTOR(7 downto 0);
 
-            full        : out std_logic;
-            empty       : out std_logic
+            FULL      	: out std_logic;
+            EMPTY      	: out std_logic
         );
     end component;
 
@@ -116,7 +116,7 @@ architecture RS232_Behavior of RS232 is
     signal code_out   : std_logic;  -- bit at the receiver output
 
     -- FIFO
-    signal sinit      : std_logic;  -- fifo reset
+   -- signal sinit      : std_logic;  -- fifo reset
     signal fifo_in    : std_logic_vector(7 downto 0);
     signal fifo_write : std_logic;
     signal fifo_read  : std_logic;
@@ -158,21 +158,21 @@ architecture RS232_Behavior of RS232 is
 
         FIFO : RS232_fifo
             port map(
-                srst        => sinit,
-                clk         => CLK_PORT,
+                RESET       => RESET,
+                CLK_PORT    => CLK_PORT,
 
-                wr_en       => fifo_write,
-                din         => fifo_in,
+                WR_EN       => fifo_write,
+                DIN         => fifo_in,
             
-                rd_en       => fifo_read,
-                dout        => fifo_out,
+                RD_EN       => fifo_read,
+                DOUT        => fifo_out,
             
-                full        => FULL,
-                empty       => EMPTY
+                FULL        => FULL,
+                EMPTY       => EMPTY
             );
         
         -- Signal assignation
-        sinit <= not(RESET); -- FIFO with reset active high
+        --sinit <= not(RESET); 
         
         TX_RDY <= tx_rdy_i;
 

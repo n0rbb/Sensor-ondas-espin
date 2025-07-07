@@ -1,0 +1,93 @@
+---------------------------------------------------
+Report for cell iCE_SWS
+   Instance path: iCE_SWS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       4219        100.0
+                               LUTGATE	       4135        100.0
+                                LUTCCU	         84        100.0
+                                 IOBUF	          6        100.0
+                                PFUREG	       2186        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                               SWS_top	          1        49.2
+---------------------------------------------------
+Report for cell SWS_top
+   Instance path: iCE_SWS/UUT_SWS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2076        49.2
+                               LUTGATE	       1992        48.2
+                                LUTCCU	         84        100.0
+                                PFUREG	       2186        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                                   ALU	          1         2.6
+                                   CPU	          1         2.2
+                                   DMA	          1         1.5
+                                   RAM	          1        41.0
+                                   ROM	          1         1.1
+                                 RS232	          1         0.8
+---------------------------------------------------
+Report for cell RS232
+   Instance path: iCE_SWS/UUT_SWS/RS232_CP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                               LUTGATE	         24         0.6
+                                LUTCCU	         10        11.9
+                                PFUREG	         24         1.1
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     RS232_transmitter	          1         0.8
+---------------------------------------------------
+Report for cell RS232_transmitter
+   Instance path: iCE_SWS/UUT_SWS/RS232_CP/Transmitter
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                               LUTGATE	         24         0.6
+                                LUTCCU	         10        11.9
+                                PFUREG	         14         0.6
+---------------------------------------------------
+Report for cell DMA
+   Instance path: iCE_SWS/UUT_SWS/DMA_CP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         65         1.5
+                               LUTGATE	         31         0.7
+                                LUTCCU	         34        40.5
+                                PFUREG	         45         2.1
+---------------------------------------------------
+Report for cell RAM
+   Instance path: iCE_SWS/UUT_SWS/RAM_CP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       1730        41.0
+                               LUTGATE	       1730        41.8
+                                PFUREG	       2048        93.7
+---------------------------------------------------
+Report for cell ALU
+   Instance path: iCE_SWS/UUT_SWS/ALU_CP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        111         2.6
+                               LUTGATE	         91         2.2
+                                LUTCCU	         20        23.8
+                                PFUREG	         33         1.5
+---------------------------------------------------
+Report for cell ROM
+   Instance path: iCE_SWS/UUT_SWS/ROM_CP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         45         1.1
+                               LUTGATE	         45         1.1
+---------------------------------------------------
+Report for cell CPU
+   Instance path: iCE_SWS/UUT_SWS/CPU_CP
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         91         2.2
+                               LUTGATE	         71         1.7
+                                LUTCCU	         20        23.8
+                                PFUREG	         36         1.6

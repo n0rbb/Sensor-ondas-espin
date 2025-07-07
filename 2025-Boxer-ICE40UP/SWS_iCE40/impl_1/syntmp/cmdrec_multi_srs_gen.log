@@ -1,0 +1,7 @@
+C:\lscc\radiant\2024.2\synpbase\bin64\syn_nfilter.exe  -link  -top  iCE_SWS  -multisrs  C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synwork\SWS_iCE40_impl_1_comp.srs  -osyn  C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synwork\SWS_iCE40_impl_1_mult.srs  -log  C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synlog\SWS_iCE40_impl_1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\lscc\radiant\2024.2\synpbase\bin64\syn_nfilter.exe -link -top iCE_SWS -multisrs ..\synwork\SWS_iCE40_impl_1_comp.srs -osyn ..\synwork\SWS_iCE40_impl_1_mult.srs -log ..\synlog\SWS_iCE40_impl_1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\sws_ice40_impl_1_comp.srs|io:i|time:1751025908|size:38308|exec:0|csum:E1D329912C90E927C32086C8C3ADE37B
+file:..\synwork\sws_ice40_impl_1_mult.srs|io:o|time:1751025910|size:2518|exec:0|csum:
+file:..\synlog\sws_ice40_impl_1_multi_srs_gen.srr|io:o|time:1751025910|size:1160|exec:0|csum:
+file:..\..\..\..\..\..\..\..\lscc\radiant\2024.2\synpbase\bin64\syn_nfilter.exe|io:i|time:1727995156|size:10549248|exec:1|csum:3501020B7559310BA5AA5C00F98234AE

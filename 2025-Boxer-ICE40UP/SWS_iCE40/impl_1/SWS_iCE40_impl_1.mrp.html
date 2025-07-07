@@ -1,0 +1,535 @@
+<HTML>
+<HEAD>
+<TITLE>Map Report</TITLE>
+<link href="" rel="stylesheet" type="text/css" media="screen"/>
+<link href="" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Mrp"></A>                         Lattice Mapping Report File
+
+Design:  iCE_SWS
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:  High-Performance_1.2V
+
+Mapper:    version Radiant Software (64-bit) 2024.2.0.3.0
+Mapped on: Fri Jun 27 14:05:50 2025
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -pdc
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc -i
+     SWS_iCE40_impl_1_syn.udb -o SWS_iCE40_impl_1_map.udb -mp
+     SWS_iCE40_impl_1.mrp -hierrpt -gui -msgset
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/promote.xml
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+
+   Number of slice registers: 2186 out of  5280 (41%)
+   Number of I/O registers:      0 out of   117 (0%)
+   Number of LUT4s:           4219 out of  5280 (80%)
+      Number of logic LUT4s:             2062
+      Number of inserted feedthru LUT4s: 2060
+      Number of replicated LUT4s:         13
+      Number of ripple logic:             42 (84 LUT4s)
+   Number of IO sites used:   6 out of 39 (15%)
+      Number of IO sites used for general PIO: 6
+      Number of IO sites used for I3C: 0 out of 2 (0%)
+      (note: If I3C is not used, its site can be used as general PIO)
+      Number of IO sites used for PIO+I3C: 6 out of 36 (17%)
+      Number of IO sites used for OD+RGB IO buffers: 0 out of 3 (0%)
+      (note: If RGB LED drivers are not used, sites can be used as OD outputs,
+       see TN1288 iCE40 LED Driver Usage Guide)
+      Number of IO sites used for PIO+I3C+OD+RGB: 6 out of 39 (15%)
+   Number of DSPs:             0 out of 8 (0%)
+   Number of I2Cs:             0 out of 2 (0%)
+   Number of High Speed OSCs:  0 out of 1 (0%)
+   Number of Low Speed OSCs:   0 out of 1 (0%)
+   Number of RGB PWM:          0 out of 1 (0%)
+   Number of RGB Drivers:      0 out of 1 (0%)
+   Number of SCL FILTERs:      0 out of 2 (0%)
+   Number of SRAMs:            0 out of 4 (0%)
+   Number of WARMBOOTs:        0 out of 1 (0%)
+   Number of SPIs:             0 out of 2 (0%)
+   Number of EBRs:             0 out of 30 (0%)
+   Number of PLLs:             0 out of 1 (0%)
+   Number of Clocks:  1
+      Net CLK_SOURCE_c: 2165 loads, 2165 rising, 0 falling (Driver: Port
+     CLK_SOURCE)
+   Number of Clock Enables:  266
+      Net UUT_SWS.current_state[2]: 8 loads, 8 SLICEs
+      Net UUT_SWS.DMA_CP.current_state_RNICC7HD[0]: 8 loads, 8 SLICEs
+      Net UUT_SWS.DMA_CP.byte_counter_txe_0_i: 17 loads, 17 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_255_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_242_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_243_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_244_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_245_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_246_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_247_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_248_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_249_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_250_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_251_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_254_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_226_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_227_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_228_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_229_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_230_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_231_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_232_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_233_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_234_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_235_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_238_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_239_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_210_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_211_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_212_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_213_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_214_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_215_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_216_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_217_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_218_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_219_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_222_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_223_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_195_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_196_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_197_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_198_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_199_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_200_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_201_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_202_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_203_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_206_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_207_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_190_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_191_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_194_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_174_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_175_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_178_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_179_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_158_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_159_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_162_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_163_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_142_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_143_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_146_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_147_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_126_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_127_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_130_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_131_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_110_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_111_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_114_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_115_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_94_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_95_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_98_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_99_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_78_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_79_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_82_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_83_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_62_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_63_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_66_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_67_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_46_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_47_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_50_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_51_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_52_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_53_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_54_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_55_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_56_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_57_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_58_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_59_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_30_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_31_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_34_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_35_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_36_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_37_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_38_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_39_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_40_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_41_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_42_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_43_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_15_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_18_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_19_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_20_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_21_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_22_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_23_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_24_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_25_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_26_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_27_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_4_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_5_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_6_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_7_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_8_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_9_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_10_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_11_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_14_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_240_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_241_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_252_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_253_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_225_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_236_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_237_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_220_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_221_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_224_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_204_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_205_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_208_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_209_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_180_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_181_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_182_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_183_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_184_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_185_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_186_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_187_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_188_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_189_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_192_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_193_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_165_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_166_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_167_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_168_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_169_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_170_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_171_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_172_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_173_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_176_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_177_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_150_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_151_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_152_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_153_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_154_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_155_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_156_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_157_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_160_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_161_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_164_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_135_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_136_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_137_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_138_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_139_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_140_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_141_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_144_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_145_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_148_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_149_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_120_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_121_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_122_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_123_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_124_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_125_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_128_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_129_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_132_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_133_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_134_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_105_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_106_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_107_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_108_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_109_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_112_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_113_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_116_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_117_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_118_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_119_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_90_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_91_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_92_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_93_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_96_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_97_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_100_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_101_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_102_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_103_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_104_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_75_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_76_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_77_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_80_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_81_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_84_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_85_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_86_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_87_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_88_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_89_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_60_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_61_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_64_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_65_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_68_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_69_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_70_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_71_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_72_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_73_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_74_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_45_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_48_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_49_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_32_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_33_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_44_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_16_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_17_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_28_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_29_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_0_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_1_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_2_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_3_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_12_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.RAM_CP.contents_ram_13_1_sqmuxa: 8 loads, 8 SLICEs
+      Net UUT_SWS.ALU_CP.un1_alu_op_3_0_i: 8 loads, 8 SLICEs
+      Net UUT_SWS.ALU_CP.un1_alu_op_4_0_i: 8 loads, 8 SLICEs
+      Net UUT_SWS.uoperation[6]: 8 loads, 8 SLICEs
+      Net UUT_SWS.uoperation[5]: 8 loads, 8 SLICEs
+      Net UUT_SWS.CPU_CP.current_state[4]: 8 loads, 8 SLICEs
+      Net UUT_SWS.CPU_CP.un1_current_state_8_0: 5 loads, 5 SLICEs
+      Net UUT_SWS.CPU_CP.current_state_RNIHF32B[5]: 13 loads, 13 SLICEs
+   Number of LSRs:  1
+      Pin BTN[0]: 176 loads, 176 SLICEs (Net: BTN_c[0])
+   Top 10 highest fanout non-clock nets:
+      Net UUT_SWS.oe: 1814 loads
+      Net UUT_SWS.address[0]: 645 loads
+      Net UUT_SWS.address[7]: 618 loads
+      Net UUT_SWS.address[6]: 583 loads
+      Net UUT_SWS.address_1[6]: 551 loads
+      Net UUT_SWS.write_en_cpu: 280 loads
+      Net UUT_SWS.address[4]: 274 loads
+      Net UUT_SWS.contents_ram_115_RNI7BM4BP3[3]: 261 loads
+      Net UUT_SWS.N_2025: 261 loads
+      Net UUT_SWS.acc_reg[6]: 260 loads
+
+   Number of warnings:  16
+   Number of criticals: 0
+   Number of errors:    0
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Criticals/Warnings</big></U></B>
+
+WARNING &lt;1026001&gt; - map:
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc (1) : No
+     port matched &apos;a&apos;.
+WARNING &lt;1026001&gt; - map:
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc (2) : No
+     port matched &apos;b&apos;.
+WARNING &lt;1026001&gt; - map:
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc (3) : No
+     port matched &apos;y&apos;.
+WARNING &lt;1027013&gt; - map: No port matched &apos;a&apos;.
+WARNING &lt;1026001&gt; - map:
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc (1) :
+     Can&apos;t resolve object &apos;a&apos; in constraint &apos;ldc_set_location -site {28}
+     [get_ports a]&apos;.
+WARNING &lt;1027013&gt; - map: No port matched &apos;b&apos;.
+WARNING &lt;1026001&gt; - map:
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc (2) :
+     Can&apos;t resolve object &apos;b&apos; in constraint &apos;ldc_set_location -site {27}
+     [get_ports b]&apos;.
+WARNING &lt;1027013&gt; - map: No port matched &apos;y&apos;.
+WARNING &lt;1026001&gt; - map:
+     C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc (3) :
+     Can&apos;t resolve object &apos;y&apos; in constraint &apos;ldc_set_location -site {31}
+     [get_ports y]&apos;.
+WARNING &lt;1011001&gt; - map: Remove invalid constraint &apos;ldc_set_location -site {28}
+     [get_ports a]&apos;.
+WARNING &lt;1011001&gt; - map: Remove invalid constraint &apos;ldc_set_location -site {27}
+     [get_ports b]&apos;.
+WARNING &lt;1011001&gt; - map: Remove invalid constraint &apos;ldc_set_location -site {31}
+     [get_ports y]&apos;.
+WARNING &lt;71003020&gt; - map: Top module port &apos;BTN[1]&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;UART_RX&apos; does not connect to
+     anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;BTN[1]&apos; does not connect to anything.
+WARNING &lt;71003020&gt; - map: Top module port &apos;UART_RX&apos; does not connect to
+     anything.
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| CLK_SOURCE          | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| BTN[0]              | INPUT     |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| UART_TX             | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| LED[0]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| LED[1]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| LED[2]              | OUTPUT    |           |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block CLK_SOURCE_ibuf.vlo_inst was optimized away.
+
+<A name="mrp_asic"></A><B><U><big>ASIC Components</big></U></B>
+
+
+<A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
+
+   Total number of constraints: 3
+   Total number of constraints dropped: 3
+   Dropped constraints are:
+     ldc_set_location -site {28} [get_ports a]
+     ldc_set_location -site {27} [get_ports b]
+     ldc_set_location -site {31} [get_ports y]
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+
+   Total CPU Time: 3 secs
+   Total REAL Time: 4 secs
+   Peak Memory Usage: 127 MB
+Checksum -- map: aa83e14b8cdba7d6f9599e06a449a359c1985f71
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&amp;T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor
+     Corporation,  All rights reserved.
+</PRE></DIV>
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#mrp_di>Design Information</A></LI>
+<LI><A href=#mrp_ds>Design Summary</A></LI>
+<LI><A href=#mrp_dwe>Design Errors/Criticals/Warnings</A></LI>
+<LI><A href=#mrp_ioa>IO (PIO) Attributes</A></LI>
+<LI><A href=#mrp_rm>Removed logic</A></LI>
+<LI><A href=#mrp_asic>ASIC Components</A></LI>
+<LI><A href=#mrp_consum>Constraint Summary</A></LI>
+<LI><A href=#mrp_runtime>Run Time and Memory Usage</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+
