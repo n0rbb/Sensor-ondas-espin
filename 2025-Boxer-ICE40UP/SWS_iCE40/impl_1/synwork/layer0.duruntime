@@ -1,0 +1,29 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: RS232_transmitter, Architecture: transmitter_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RS232_receiver, Architecture: receiver_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RS232_shiftregister, Architecture: sr_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RS232_fifo, Architecture: fifo_behaviour
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RS232, Architecture: rs232_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: DMA, Architecture: dma_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RAM, Architecture: ram_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ALU, Architecture: alu_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: ROM, Architecture: rom_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: CPU, Architecture: cpu_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: SWS_top, Architecture: sws_top_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: iCE_SWS, Architecture: sws_behavior
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time

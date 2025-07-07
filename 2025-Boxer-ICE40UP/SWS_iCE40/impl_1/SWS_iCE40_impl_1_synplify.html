@@ -1,0 +1,1582 @@
+<HTML>
+<HEAD>
+<TITLE>Synthesis Report</TITLE>
+<link href="file:///C:/lscc/radiant/2024.2/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/2024.2/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro (R) V-2023.09LR-2, Build 364R, Oct  3 2024
+#install: C:\lscc\radiant\2024.2\synpbase
+#OS: Windows 10 or later
+#Hostname: DESKTOP-NDA5VSL
+
+# Fri Jun 27 14:04:58 2025
+
+#Implementation: impl_1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys HDL Compiler, Version comp202309synp1, Build 364R, Built Oct  3 2024 00:23:20, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys VHDL Compiler, Version comp202309synp1, Build 364R, Built Oct  3 2024 00:23:20, @
+
+@N|Running in 64-bit mode
+Location map warning &quot;C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map&quot;:39 - Attempted redefinition of package lfd2nx1.components
+Location map warning &quot;C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map&quot;:43 - Attempted redefinition of package lfd2nx2.components
+Location map warning &quot;C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map&quot;:49 - Attempted redefinition of package lfmxo5t1.components
+@N:&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:26:7:26:13|Top entity is set to iCE_SWS.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\MEM_pkg.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\lscc\radiant\2024.2\cae_library\synthesis\vhdl\iCE40UP.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&apos;.
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&quot;:79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to &quot;1000000000000&quot;.
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&quot;:79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to &quot;1000000000000&quot;.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 90MB)
+
+
+Process completed successfully.
+# Fri Jun 27 14:04:59 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys Verilog Compiler, Version comp202309synp1, Build 364R, Built Oct  3 2024 00:23:20, @
+
+@N|Running in 64-bit mode
+@I::&quot;C:\lscc\radiant\2024.2\synpbase\lib\generic\ice40up.v&quot; (library work)
+@I::&quot;C:\lscc\radiant\2024.2\synpbase\lib\vlog\hypermods.v&quot; (library __hyper__lib__)
+@I::&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_addsub.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_addsub.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v&quot;:313:13:313:25|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v&quot;:333:13:333:24|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_add.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_add.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/adder/rtl\lscc_adder.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_complex_mult.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_complex_mult.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_complex_mult.v&quot;:92:11:92:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_complex_mult.v&quot;:101:11:101:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_counter.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_counter.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/counter/rtl\lscc_cntr.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/counter/rtl\lscc_cntr.v&quot;:129:13:129:25|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/counter/rtl\lscc_cntr.v&quot;:143:13:143:24|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_fifo.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_fifo.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot;:3271:17:3271:29|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot;:3278:17:3278:28|Read directive translate_on.
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot;:3335:17:3335:29|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot;:3342:17:3342:28|Read directive translate_on.
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot;:3397:17:3397:29|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v&quot;:3404:17:3404:28|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_fifo_dc.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_fifo_dc.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v&quot;:5121:25:5121:37|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v&quot;:5125:25:5125:36|Read directive translate_on.
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v&quot;:5156:29:5156:41|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v&quot;:5160:29:5160:40|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mac.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mac.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mac.v&quot;:94:11:94:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mac.v&quot;:109:11:109:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsubsum.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsubsum.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v&quot;:210:13:210:25|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v&quot;:227:13:227:24|Read directive translate_on.
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsubsum.v&quot;:84:11:84:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsubsum.v&quot;:93:11:93:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsub.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsub.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsub.v&quot;:91:11:91:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsub.v&quot;:100:11:100:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mult.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mult.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mult.v&quot;:87:11:87:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_mult.v&quot;:96:11:96:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v&quot;:1060:25:1060:37|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v&quot;:1064:25:1064:36|Read directive translate_on.
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v&quot;:1095:29:1095:41|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v&quot;:1099:29:1099:40|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v&quot;:1485:25:1485:37|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v&quot;:1491:25:1491:36|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_rom.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_rom.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/rom/rtl\lscc_rom.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/rom/rtl\lscc_rom.v&quot;:970:25:970:37|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/rom/rtl\lscc_rom.v&quot;:976:25:976:36|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_sub.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_sub.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v&quot; (library work)
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp_be.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp_be.v&quot;:146:11:146:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp_be.v&quot;:155:11:155:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq_be.v&quot; (library work)
+@N: CG334 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq_be.v&quot;:87:11:87:23|Read directive translate_off.
+@N: CG333 :&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq_be.v&quot;:95:11:95:22|Read directive translate_on.
+@I:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.v&quot;:&quot;C:\lscc\radiant\2024.2\ip\pmi\pmi_dsp.v&quot; (library work)
+Verilog syntax check successful!
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Process completed successfully.
+# Fri Jun 27 14:05:00 2025
+
+###########################################################]
+###########################################################[
+Location map warning &quot;C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map&quot;:39 - Attempted redefinition of package lfd2nx1.components
+Location map warning &quot;C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map&quot;:43 - Attempted redefinition of package lfd2nx2.components
+Location map warning &quot;C:\lscc\radiant\2024.2\synpbase\lib\vhd\location.map&quot;:49 - Attempted redefinition of package lfmxo5t1.components
+@N:&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:26:7:26:13|Top entity is set to iCE_SWS.
+Options changed - recompiling
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\MEM_pkg.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\lscc\radiant\2024.2\cae_library\synthesis\vhdl\iCE40UP.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd&apos;.
+@N: CD140 :	| Using the VHDL 1993 Standard for file &apos;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&apos;.
+VHDL syntax check successful!
+Options changed - recompiling
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:26:7:26:13|Synthesizing work.ice_sws.sws_behavior.
+@W: CD638 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:72:11:72:13|Signal clk is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd&quot;:27:7:27:13|Synthesizing work.sws_top.sws_top_behavior.
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&quot;:79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to &quot;1000000000000&quot;.
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:28:7:28:9|Synthesizing work.cpu.cpu_behavior.
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&quot;:79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to &quot;1000000000000&quot;.
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:56:16:56:17|Using onehot encoding for type states. For example, enumeration idle is mapped to &quot;1000000&quot;.
+Post processing for work.cpu.cpu_behavior
+Running optimization stage 1 on CPU .......
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:292:16:292:17|Feedback mux created for signal ins_reg[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on CPU (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd&quot;:28:7:28:9|Synthesizing work.rom.rom_behavior.
+Post processing for work.rom.rom_behavior
+Running optimization stage 1 on ROM .......
+Finished optimization stage 1 on ROM (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd&quot;:27:7:27:9|Synthesizing work.alu.alu_behavior.
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd&quot;:79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to &quot;1000000000000&quot;.
+Post processing for work.alu.alu_behavior
+Running optimization stage 1 on ALU .......
+Finished optimization stage 1 on ALU (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:28:7:28:9|Synthesizing work.ram.ram_behavior.
+Post processing for work.ram.ram_behavior
+Running optimization stage 1 on RAM .......
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_255[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_254[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_253[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_252[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_251[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_250[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_249[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_248[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_247[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_246[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_245[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_244[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_243[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_242[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_241[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_240[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_239[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_238[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_237[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_236[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_235[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_234[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_233[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_232[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_231[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_230[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_229[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_228[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_227[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_226[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_225[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_224[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_223[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_222[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_221[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_220[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_219[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_218[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_217[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_216[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_215[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_214[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_213[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_212[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_211[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_210[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_209[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_208[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_207[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_206[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_205[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_204[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_203[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_202[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_201[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_200[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_199[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_198[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_197[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_196[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_195[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_194[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_193[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_192[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_191[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_190[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_189[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_188[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_187[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_186[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_185[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_184[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_183[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_182[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_181[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_180[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_179[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_178[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_177[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_176[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_175[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_174[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_173[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_172[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_171[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_170[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_169[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_168[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_167[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_166[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_165[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_164[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_163[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_162[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_161[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_160[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_159[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_158[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd&quot;:53:16:53:17|Feedback mux created for signal contents_ram_157[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+
+Only the first 100 messages of id &apos;CL282&apos; are reported. To see all messages use &apos;report_messages -log C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synlog\SWS_iCE40_impl_1_compiler.srr -id CL282&apos; in the Tcl shell. To see all messages in future runs, use the command &apos;message_override -limit {CL282} -count unlimited&apos; in the Tcl shell.
+Finished optimization stage 1 on RAM (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd&quot;:28:7:28:9|Synthesizing work.dma.dma_behavior.
+@N: CD231 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd&quot;:59:16:59:17|Using onehot encoding for type states. For example, enumeration idle is mapped to &quot;10000000&quot;.
+Post processing for work.dma.dma_behavior
+Running optimization stage 1 on DMA .......
+Finished optimization stage 1 on DMA (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd&quot;:26:7:26:11|Synthesizing work.rs232.rs232_behavior.
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:25:7:25:16|Synthesizing work.rs232_fifo.fifo_behaviour.
+@W: CD638 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:8:45:13|Signal full_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:16:45:22|Signal empty_s is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.rs232_fifo.fifo_behaviour
+Running optimization stage 1 on RS232_fifo .......
+@W: CL240 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:16:45:22|Signal empty_s is floating; a simulation mismatch is possible.
+@W: CL240 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:8:45:13|Signal full_s is floating; a simulation mismatch is possible.
+@N: CL134 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:43:8:43:20|Found RAM contents_fifo, depth=4, width=8
+@W: CL111 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:66:12:66:13|All reachable assignments to count(0) are &apos;0&apos;; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:66:12:66:13|All reachable assignments to count(1) are &apos;0&apos;; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:66:12:66:13|All reachable assignments to count(2) are &apos;0&apos;; removing register. To preserve a constant register, use the syn_preserve attribute.
+Finished optimization stage 1 on RS232_fifo (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd&quot;:25:7:25:25|Synthesizing work.rs232_shiftregister.sr_behavior.
+Post processing for work.rs232_shiftregister.sr_behavior
+Running optimization stage 1 on RS232_shiftregister .......
+Finished optimization stage 1 on RS232_shiftregister (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:26:7:26:20|Synthesizing work.rs232_receiver.receiver_behavior.
+@N: CD233 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:41:16:41:17|Using sequential encoding for type states.
+Post processing for work.rs232_receiver.receiver_behavior
+Running optimization stage 1 on RS232_receiver .......
+Finished optimization stage 1 on RS232_receiver (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+@N: CD630 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd&quot;:26:7:26:23|Synthesizing work.rs232_transmitter.transmitter_behavior.
+@N: CD233 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd&quot;:41:16:41:17|Using sequential encoding for type states.
+Post processing for work.rs232_transmitter.transmitter_behavior
+Running optimization stage 1 on RS232_transmitter .......
+Finished optimization stage 1 on RS232_transmitter (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Post processing for work.rs232.rs232_behavior
+Running optimization stage 1 on RS232 .......
+@W: CL169 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd&quot;:186:12:186:13|Pruning unused register linerd_in_2. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on RS232 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Post processing for work.sws_top.sws_top_behavior
+Running optimization stage 1 on SWS_top .......
+Finished optimization stage 1 on SWS_top (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Post processing for work.ice_sws.sws_behavior
+Running optimization stage 1 on iCE_SWS .......
+Finished optimization stage 1 on iCE_SWS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on RS232_transmitter .......
+@N: CL201 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd&quot;:103:16:103:17|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on RS232_transmitter (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on RS232_receiver .......
+@W: CL190 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:133:16:133:17|Optimizing register bit data_count(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:133:16:133:17|Pruning register bit 3 of data_count(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:133:16:133:17|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on RS232_receiver (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on RS232_shiftregister .......
+Finished optimization stage 2 on RS232_shiftregister (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on RS232_fifo .......
+Finished optimization stage 2 on RS232_fifo (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on RS232 .......
+Finished optimization stage 2 on RS232 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on DMA .......
+@N: CL201 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd&quot;:250:16:250:17|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@N: CL159 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd&quot;:34:8:34:14|Input RX_FULL is unused.
+Finished optimization stage 2 on DMA (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 101MB)
+Running optimization stage 2 on RAM .......
+Finished optimization stage 2 on RAM (CPU Time 0h:00m:00s, Memory Used current: 102MB peak: 103MB)
+Running optimization stage 2 on ALU .......
+@W: CL247 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd&quot;:32:10:32:15|Input port bit 12 of alu_op(0 to 12) is unused 
+Finished optimization stage 2 on ALU (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+Running optimization stage 2 on ROM .......
+Finished optimization stage 2 on ROM (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+Running optimization stage 2 on CPU .......
+@N: CL201 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:292:16:292:17|Trying to extract state machine for register current_state.
+Extracted state machine for register current_state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@W: CL246 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:33:8:33:15|Input port bits 11 to 8 of rom_inst(11 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:48:8:48:13|Input FLAG_E is unused.
+Finished optimization stage 2 on CPU (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+Running optimization stage 2 on SWS_top .......
+Finished optimization stage 2 on SWS_top (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+Running optimization stage 2 on iCE_SWS .......
+@W: CL247 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:32:8:32:10|Input port bit 1 of btn(1 downto 0) is unused 
+Finished optimization stage 2 on iCE_SWS (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 104MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 100MB peak: 104MB)
+
+
+Process completed successfully.
+# Fri Jun 27 14:05:08 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 364R, Built Oct  3 2024 00:23:20, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jun 27 14:05:09 2025
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synwork\SWS_iCE40_impl_1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:08s; Memory used current: 30MB peak: 31MB)
+
+Process took 0h:00m:10s realtime, 0h:00m:08s cputime
+
+Process completed successfully.
+# Fri Jun 27 14:05:09 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 364R, Built Oct  3 2024 00:23:20, @
+
+@N|Running in 64-bit mode
+File C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synwork\SWS_iCE40_impl_1_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Jun 27 14:05:10 2025
+
+###########################################################]
+Premap Report
+
+# Fri Jun 27 14:05:11 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 228R, Built Nov  4 2024 06:01:40, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
+
+Reading constraint file: C:\lscc\radiant\2024.2\scripts\tcl\flow\radiant_synplify_vars.tcl
+Reading constraint file: C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\impl_1.sdc
+@L: C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1_scck.rpt 
+See clock summary report &quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1_scck.rpt&quot;
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command &quot;set_option -fix_gated_and_generated_clocks 0&quot; in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 200MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 253MB)
+
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\alu.vhd&quot;:129:20:129:21|Removing sequential instance flag_err_reg (in view: work.ALU(alu_behavior)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+Encoding state machine current_state[0:3] (in view: work.RS232_transmitter(transmitter_behavior))
+original code -&gt; new code
+   00 -&gt; 00
+   01 -&gt; 01
+   10 -&gt; 10
+   11 -&gt; 11
+@N: MO225 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd&quot;:103:16:103:17|There are no possible illegal states for state machine current_state[0:3] (in view: work.RS232_transmitter(transmitter_behavior)); safe FSM implementation is not required.
+Encoding state machine current_state[0:3] (in view: work.RS232_receiver(receiver_behavior))
+original code -&gt; new code
+   00 -&gt; 00
+   01 -&gt; 01
+   10 -&gt; 10
+   11 -&gt; 11
+@N: MO225 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|There are no possible illegal states for state machine current_state[0:3] (in view: work.RS232_receiver(receiver_behavior)); safe FSM implementation is not required.
+Encoding state machine current_state[0:7] (in view: work.DMA(dma_behavior))
+original code -&gt; new code
+   00000001 -&gt; 00000001
+   00000010 -&gt; 00000010
+   00000100 -&gt; 00000100
+   00001000 -&gt; 00001000
+   00010000 -&gt; 00010000
+   00100000 -&gt; 00100000
+   01000000 -&gt; 01000000
+   10000000 -&gt; 10000000
+Encoding state machine current_state[0:6] (in view: work.CPU(cpu_behavior))
+original code -&gt; new code
+   0000001 -&gt; 0000001
+   0000010 -&gt; 0000010
+   0000100 -&gt; 0000100
+   0001000 -&gt; 0001000
+   0010000 -&gt; 0010000
+   0100000 -&gt; 0100000
+   1000000 -&gt; 1000000
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=30 on top level netlist iCE_SWS 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+
+Clock Summary
+******************
+
+          Start                  Requested     Requested     Clock        Clock          Clock
+Level     Clock                  Frequency     Period        Type         Group          Load 
+----------------------------------------------------------------------------------------------
+0 -       iCE_SWS|CLK_SOURCE     200.0 MHz     5.000         inferred     (multiple)     2265 
+==============================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                       Clock     Source               Clock Pin                         Non-clock Pin     Non-clock Pin
+Clock                  Load      Pin                  Seq Example                       Seq Example       Comb Example 
+-----------------------------------------------------------------------------------------------------------------------
+iCE_SWS|CLK_SOURCE     2265      CLK_SOURCE(port)     UUT_SWS.CPU_CP.tmp_reg[7:0].C     -                 -            
+=======================================================================================================================
+
+@W: MT530 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd&quot;:103:16:103:17|Found inferred clock iCE_SWS|CLK_SOURCE which controls 2265 sequential elements including UUT_SWS.RS232_CP.Transmitter.current_state[1]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 2258 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=================================== Non-Gated/Non-Generated Clocks ====================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                
+-------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       CLK_SOURCE          port                   2258       UUT_SWS.CPU_CP.current_state[0]
+=======================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 258MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 258MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 260MB peak: 260MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 261MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Jun 27 14:05:14 2025
+
+###########################################################]
+Map &amp; Optimize Report
+
+# Fri Jun 27 14:05:15 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 228R, Built Nov  4 2024 06:01:40, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 184MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command &quot;set_option -fix_gated_and_generated_clocks 0&quot; in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 249MB peak: 249MB)
+
+@N: BZ173 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:179:36:179:39|ROM CPU_FSM\.RAM_OE_2[8:0] (in view: work.CPU(cpu_behavior)) mapped in logic.
+@N: MO106 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:179:36:179:39|Found ROM CPU_FSM\.RAM_OE_2[8:0] (in view: work.CPU(cpu_behavior)) with 15 words by 9 bits.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing sequential instance UUT_SWS.RS232_CP.FIFO.write_ptr[1:0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.read_ptr[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing user instance UUT_SWS.RS232_CP.FIFO.SUM0_0 because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.SUM0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing user instance UUT_SWS.RS232_CP.FIFO.CO0_0 because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.CO0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+
+@W: FX703 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Unable to map RAM instance FIFO.contents_fifo[7:0] to RAM for technology specified. 
+@N: MF135 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|RAM UUT_SWS.RS232_CP.FIFO.contents_fifo[7:0] is 4 words by 8 bits.
+@N: MO231 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd&quot;:103:16:103:17|Found counter in view:work.RS232_transmitter(transmitter_behavior) instance pulse_count[7:0] 
+@N: MO231 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Found counter in view:work.RS232_receiver(receiver_behavior) instance halfbit_count[7:0] 
+@N: MO231 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Found counter in view:work.RS232_receiver(receiver_behavior) instance bit_count[7:0] 
+@N: MO231 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Found counter in view:work.DMA(dma_behavior) instance byte_counter_tx[31:0] 
+@N: MO231 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Found counter in view:work.DMA(dma_behavior) instance byte_counter_rx[31:0] 
+@W: MO129 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Sequential instance UUT_SWS.DMA_CP.current_state[5] is reduced to a combinational gate by constant propagation.
+@W: MO129 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Sequential instance UUT_SWS.DMA_CP.current_state[4] is reduced to a combinational gate by constant propagation.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Removing sequential instance byte_counter_rx[31:0] (in view: work.DMA(dma_behavior)) of type view:PrimLib.counter(prim) because it does not drive other instances.
+@N: MO231 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Found counter in view:work.CPU(cpu_behavior) instance pc_reg[7:0] 
+@N: MF794 |RAM FIFO.contents_fifo[7:0] required 32 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 265MB peak: 265MB)
+
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing sequential instance FIFO.contents_fifo_ram0_[0] (in view: work.SYNRAM4X8(decomp)) because it does not drive other instances.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing sequential instance UUT_SWS.RS232_CP.FIFO.DOUT[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN115 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[0] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[1] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[2] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[2] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[3] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[3] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[4] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[4] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[5] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[5] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[6] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[6] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Removing sequential instance UUT_SWS.RS232_CP.Shift_Register.Q_buffer[7] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@A: BN291 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_shiftregister.vhd&quot;:46:12:46:13|Boundary register UUT_SWS.RS232_CP.Shift_Register.Q_buffer[7] (in view: work.iCE_SWS(sws_behavior)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing sequential instance UUT_SWS.RS232_CP.FIFO.read_ptr[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing sequential instance UUT_SWS.RS232_CP.FIFO.read_ptr[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Removing sequential instance UUT_SWS.CPU_CP.current_state[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 270MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[7] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[7] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[6] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[6] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[5] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[5] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[4] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[4] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[3] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[3] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[2] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[2] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[1] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[1] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+@W: MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[0] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[0] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 274MB peak: 276MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 274MB peak: 276MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 274MB peak: 276MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 274MB peak: 276MB)
+
+@W: FX553 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rom.vhd&quot;:180:32:180:35|Could not implement Block ROM for UUT_SWS.ROM_CP.INSTRUCTION_1[7:0].
+@N: MO106 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rom.vhd&quot;:180:32:180:35|Found ROM UUT_SWS.ROM_CP.INSTRUCTION_1[7:0] (in view: work.iCE_SWS(sws_behavior)) with 65 words by 8 bits.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[7] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[6] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[5] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[4] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[3] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[2] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.bit_count[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[7] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[6] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[5] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[4] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[3] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[2] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.halfbit_count[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.current_state[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.current_state[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.data_count[2] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.data_count[1] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+@N: BN362 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_receiver.vhd&quot;:133:16:133:17|Removing sequential instance UUT_SWS.RS232_CP.Receiver.data_count[0] (in view: work.iCE_SWS(sws_behavior)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 274MB peak: 276MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 312MB peak: 312MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:07s		   -35.46ns		2674 /      2180
+   2		0h:00m:07s		   -35.46ns		2008 /      2180
+@N: FX271 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Replicating instance UUT_SWS.CPU_CP.ins_reg[4] (in view: work.iCE_SWS(sws_behavior)) with 25 loads 1 time to improve timing.
+@N: FX271 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Replicating instance UUT_SWS.CPU_CP.ins_reg[2] (in view: work.iCE_SWS(sws_behavior)) with 29 loads 1 time to improve timing.
+@N: FX271 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Replicating instance UUT_SWS.CPU_CP.ins_reg[5] (in view: work.iCE_SWS(sws_behavior)) with 28 loads 1 time to improve timing.
+@N: FX271 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Replicating instance UUT_SWS.CPU_CP.current_state[2] (in view: work.iCE_SWS(sws_behavior)) with 23 loads 1 time to improve timing.
+@N: FX271 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Replicating instance UUT_SWS.CPU_CP.ins_reg[6] (in view: work.iCE_SWS(sws_behavior)) with 9 loads 1 time to improve timing.
+@N: FX271 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\cpu.vhd&quot;:292:16:292:17|Replicating instance UUT_SWS.CPU_CP.ins_reg[7] (in view: work.iCE_SWS(sws_behavior)) with 9 loads 1 time to improve timing.
+Timing driven replication report
+Added 6 Registers via timing driven replication
+Added 1 LUTs via timing driven replication
+
+   3		0h:00m:10s		   -33.34ns		2184 /      2186
+
+
+   4		0h:00m:11s		   -29.20ns		2171 /      2186
+Net buffering Report for view:work.iCE_SWS(sws_behavior):
+Added 0 Buffers
+Added 0 Registers via replication
+Added 1 LUTs via replication
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 317MB peak: 317MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 317MB peak: 317MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 317MB peak: 318MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 317MB peak: 318MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 263MB peak: 318MB)
+
+Writing Analyst data base C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\synwork\SWS_iCE40_impl_1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:13s; Memory used current: 315MB peak: 318MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 315MB peak: 318MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 316MB peak: 318MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:14s; Memory used current: 316MB peak: 318MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 312MB peak: 318MB)
+
+@W: MT420 |Found inferred clock iCE_SWS|CLK_SOURCE with period 5.00ns. Please declare a user-defined clock on port CLK_SOURCE.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Jun 27 14:05:30 2025
+#
+
+
+Top view:               iCE_SWS
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\lscc\radiant\2024.2\scripts\tcl\flow\radiant_synplify_vars.tcl
+                       C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\impl_1.sdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -25.448
+
+                       Requested     Estimated     Requested     Estimated                 Clock        Clock          
+Starting Clock         Frequency     Frequency     Period        Period        Slack       Type         Group          
+-----------------------------------------------------------------------------------------------------------------------
+iCE_SWS|CLK_SOURCE     200.0 MHz     NA            5.000         NA            NA          inferred     (multiple)     
+System                 200.0 MHz     32.8 MHz      5.000         30.448        -25.448     system       system_clkgroup
+=======================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System  |  5.000       -25.448  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: &apos;No paths&apos; indicates there are no paths in the design for that pair of clock edges.
+       &apos;Diff grp&apos; indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                         Starting                                                    Arrival            
+Instance                                 Reference     Type        Pin     Net                       Time        Slack  
+                                         Clock                                                                          
+------------------------------------------------------------------------------------------------------------------------
+UUT_SWS.CPU_CP.current_state_fast[2]     System        FD1P3DZ     Q       current_state_fast[2]     0.796       -25.448
+UUT_SWS.CPU_CP.ins_reg_fast[2]           System        FD1P3DZ     Q       ins_reg_fast[2]           0.796       -25.376
+UUT_SWS.CPU_CP.ins_reg_fast[4]           System        FD1P3DZ     Q       ins_reg_fast[4]           0.796       -25.345
+UUT_SWS.CPU_CP.ins_reg[1]                System        FD1P3DZ     Q       ins_reg[1]                0.796       -25.334
+UUT_SWS.CPU_CP.ins_reg[3]                System        FD1P3DZ     Q       ins_reg[3]                0.796       -25.262
+UUT_SWS.CPU_CP.ins_reg_fast[5]           System        FD1P3DZ     Q       ins_reg_fast[5]           0.796       -25.252
+UUT_SWS.CPU_CP.ins_reg_fast[6]           System        FD1P3DZ     Q       ins_reg_fast[6]           0.796       -25.231
+UUT_SWS.CPU_CP.ins_reg_fast[7]           System        FD1P3DZ     Q       ins_reg_fast[7]           0.796       -25.138
+UUT_SWS.CPU_CP.ins_reg[0]                System        FD1P3DZ     Q       ins_reg[0]                0.796       -21.693
+UUT_SWS.CPU_CP.ins_reg[4]                System        FD1P3DZ     Q       ins_reg[4]                0.796       -21.549
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                Starting                                           Required            
+Instance                                        Reference     Type        Pin     Net              Time         Slack  
+                                                Clock                                                                  
+-----------------------------------------------------------------------------------------------------------------------
+UUT_SWS.DMA_CP.TX_DATA[0]                       System        FD1P3DZ     D       TX_DATA_2[0]     4.845        -25.448
+UUT_SWS.DMA_CP.TX_DATA[3]                       System        FD1P3DZ     D       TX_DATA_2[3]     4.845        -25.448
+UUT_SWS.ALU_CP.a_reg[0]                         System        FD1P3DZ     D       a[0]             4.845        -25.355
+UUT_SWS.ALU_CP.a_reg[3]                         System        FD1P3DZ     D       a[3]             4.845        -25.355
+UUT_SWS.ALU_CP.b_reg[0]                         System        FD1P3DZ     D       b[0]             4.845        -25.355
+UUT_SWS.ALU_CP.b_reg[3]                         System        FD1P3DZ     D       b[3]             4.845        -25.355
+UUT_SWS.ALU_CP.index_r_reg[3]                   System        FD1P3DZ     D       index_r[3]       4.845        -25.283
+UUT_SWS.ALU_CP.acc_reg[0]                       System        FD1P3DZ     D       acc[0]           4.845        -25.252
+UUT_SWS.ALU_CP.acc_reg[3]                       System        FD1P3DZ     D       acc[3]           4.845        -25.252
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_0[1]     System        FD1P3DZ     D       databus[1]       4.845        -25.180
+=======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      30.293
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -25.448
+
+    Number of logic level(s):                14
+    Starting point:                          UUT_SWS.CPU_CP.current_state_fast[2] / Q
+    Ending point:                            UUT_SWS.DMA_CP.TX_DATA[0] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+UUT_SWS.CPU_CP.current_state_fast[2]                         FD1P3DZ     Q        Out     0.796     0.796 r      -         
+current_state_fast[2]                                        Net         -        -       1.599     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        A        In      -         2.395 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        Z        Out     0.661     3.056 r      -         
+RAM_ADDR_sn_m2_a0_2                                          Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        A        In      -         4.427 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        Z        Out     0.661     5.089 f      -         
+RAM_ADDR_sn_m2_0_1                                           Net         -        -       1.371     -            3         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        A        In      -         6.460 f      -         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        Z        Out     0.661     7.121 r      -         
+address_0_sx[1]                                              Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        C        In      -         8.492 r      -         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        Z        Out     0.517     9.009 f      -         
+address_0[1]                                                 Net         -        -       1.371     -            7         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        D        In      -         10.380 f     -         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        Z        Out     0.424     10.804 f     -         
+address_1[6]                                                 Net         -        -       1.371     -            551       
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_4_RNI1JV41C[0]        LUT4        C        In      -         12.175 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_4_RNI1JV41C[0]        LUT4        Z        Out     0.558     12.733 r     -         
+un8_databus_34_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI87VDTH[0]       LUT4        C        In      -         14.104 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI87VDTH[0]       LUT4        Z        Out     0.558     14.662 f     -         
+N_265                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI6TSD6G1[0]      LUT4        A        In      -         16.033 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI6TSD6G1[0]      LUT4        Z        Out     0.661     16.695 r     -         
+un8_databus_46_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI565V6Q2[0]     LUT4        C        In      -         18.066 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI565V6Q2[0]     LUT4        Z        Out     0.558     18.624 r     -         
+N_361                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8DHIEQ1[0]     LUT4        A        In      -         19.995 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8DHIEQ1[0]     LUT4        Z        Out     0.661     20.656 r     -         
+N_489                                                        Net         -        -       1.371     -            6         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        A        In      -         22.027 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        Z        Out     0.661     22.689 r     -         
+N_8_1                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        A        In      -         24.060 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        Z        Out     0.661     24.721 r     -         
+N_10_1                                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        A        In      -         26.092 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        Z        Out     0.661     26.754 r     -         
+N_5_li_0                                                     Net         -        -       1.371     -            1         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        A        In      -         28.125 r     -         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        Z        Out     0.661     28.786 r     -         
+TX_DATA_2[0]                                                 Net         -        -       1.507     -            1         
+UUT_SWS.DMA_CP.TX_DATA[0]                                    FD1P3DZ     D        In      -         30.293 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 30.448 is 9.519(31.3%) logic and 20.929(68.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      30.293
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -25.448
+
+    Number of logic level(s):                14
+    Starting point:                          UUT_SWS.CPU_CP.current_state_fast[2] / Q
+    Ending point:                            UUT_SWS.DMA_CP.TX_DATA[3] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+UUT_SWS.CPU_CP.current_state_fast[2]                         FD1P3DZ     Q        Out     0.796     0.796 r      -         
+current_state_fast[2]                                        Net         -        -       1.599     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        A        In      -         2.395 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        Z        Out     0.661     3.056 r      -         
+RAM_ADDR_sn_m2_a0_2                                          Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        A        In      -         4.427 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        Z        Out     0.661     5.089 f      -         
+RAM_ADDR_sn_m2_0_1                                           Net         -        -       1.371     -            3         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        A        In      -         6.460 f      -         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        Z        Out     0.661     7.121 r      -         
+address_0_sx[1]                                              Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        C        In      -         8.492 r      -         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        Z        Out     0.517     9.009 f      -         
+address_0[1]                                                 Net         -        -       1.371     -            7         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5_0            LUT4        D        In      -         10.380 f     -         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5_0            LUT4        Z        Out     0.424     10.804 f     -         
+address[6]                                                   Net         -        -       1.371     -            551       
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_4_RNI7PV41C[3]        LUT4        C        In      -         12.175 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_4_RNI7PV41C[3]        LUT4        Z        Out     0.558     12.733 r     -         
+un8_databus_34_ns_1[3]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNIKJVDTH[3]       LUT4        C        In      -         14.104 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNIKJVDTH[3]       LUT4        Z        Out     0.558     14.662 f     -         
+contents_ram_68_RNIKJVDTH[3]                                 Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNIULTD6G1[3]      LUT4        A        In      -         16.033 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNIULTD6G1[3]      LUT4        Z        Out     0.661     16.695 r     -         
+un8_databus_46_ns_1[3]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNILN6V6Q2[3]     LUT4        C        In      -         18.066 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNILN6V6Q2[3]     LUT4        Z        Out     0.558     18.624 r     -         
+contents_ram_116_RNILN6V6Q2[3]                               Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8GKIEQ1[3]     LUT4        A        In      -         19.995 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8GKIEQ1[3]     LUT4        Z        Out     0.661     20.656 r     -         
+contents_ram_116_RNI8GKIEQ1[3]                               Net         -        -       1.371     -            6         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI239BOQ3[3]     LUT4        A        In      -         22.027 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI239BOQ3[3]     LUT4        Z        Out     0.661     22.689 r     -         
+N_8_0                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3TTF4P3[3]     LUT4        A        In      -         24.060 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3TTF4P3[3]     LUT4        Z        Out     0.661     24.721 r     -         
+N_10_0                                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIH3FH3T3[3]     LUT4        A        In      -         26.092 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIH3FH3T3[3]     LUT4        Z        Out     0.661     26.754 r     -         
+N_5_li                                                       Net         -        -       1.371     -            1         
+UUT_SWS.DMA_CP.TX_DATA_RNO[3]                                LUT4        A        In      -         28.125 r     -         
+UUT_SWS.DMA_CP.TX_DATA_RNO[3]                                LUT4        Z        Out     0.661     28.786 r     -         
+TX_DATA_2[3]                                                 Net         -        -       1.507     -            1         
+UUT_SWS.DMA_CP.TX_DATA[3]                                    FD1P3DZ     D        In      -         30.293 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 30.448 is 9.519(31.3%) logic and 20.929(68.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      30.221
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -25.376
+
+    Number of logic level(s):                14
+    Starting point:                          UUT_SWS.CPU_CP.ins_reg_fast[2] / Q
+    Ending point:                            UUT_SWS.DMA_CP.TX_DATA[0] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+UUT_SWS.CPU_CP.ins_reg_fast[2]                               FD1P3DZ     Q        Out     0.796     0.796 r      -         
+ins_reg_fast[2]                                              Net         -        -       1.599     -            3         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        B        In      -         2.395 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        Z        Out     0.589     2.984 r      -         
+RAM_ADDR_sn_m2_a0_2                                          Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        A        In      -         4.355 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        Z        Out     0.661     5.017 f      -         
+RAM_ADDR_sn_m2_0_1                                           Net         -        -       1.371     -            3         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        A        In      -         6.388 f      -         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        Z        Out     0.661     7.049 r      -         
+address_0_sx[1]                                              Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        C        In      -         8.420 r      -         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        Z        Out     0.517     8.937 f      -         
+address_0[1]                                                 Net         -        -       1.371     -            7         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        D        In      -         10.308 f     -         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        Z        Out     0.424     10.732 f     -         
+address_1[6]                                                 Net         -        -       1.371     -            551       
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_4_RNI1JV41C[0]        LUT4        C        In      -         12.103 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_4_RNI1JV41C[0]        LUT4        Z        Out     0.558     12.661 r     -         
+un8_databus_34_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI87VDTH[0]       LUT4        C        In      -         14.032 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI87VDTH[0]       LUT4        Z        Out     0.558     14.590 f     -         
+N_265                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI6TSD6G1[0]      LUT4        A        In      -         15.961 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_68_RNI6TSD6G1[0]      LUT4        Z        Out     0.661     16.622 r     -         
+un8_databus_46_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI565V6Q2[0]     LUT4        C        In      -         17.993 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI565V6Q2[0]     LUT4        Z        Out     0.558     18.552 r     -         
+N_361                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8DHIEQ1[0]     LUT4        A        In      -         19.922 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8DHIEQ1[0]     LUT4        Z        Out     0.661     20.584 r     -         
+N_489                                                        Net         -        -       1.371     -            6         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        A        In      -         21.955 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        Z        Out     0.661     22.616 r     -         
+N_8_1                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        A        In      -         23.988 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        Z        Out     0.661     24.649 r     -         
+N_10_1                                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        A        In      -         26.020 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        Z        Out     0.661     26.681 r     -         
+N_5_li_0                                                     Net         -        -       1.371     -            1         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        A        In      -         28.052 r     -         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        Z        Out     0.661     28.714 r     -         
+TX_DATA_2[0]                                                 Net         -        -       1.507     -            1         
+UUT_SWS.DMA_CP.TX_DATA[0]                                    FD1P3DZ     D        In      -         30.221 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 30.376 is 9.447(31.1%) logic and 20.929(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      30.221
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -25.376
+
+    Number of logic level(s):                14
+    Starting point:                          UUT_SWS.CPU_CP.current_state_fast[2] / Q
+    Ending point:                            UUT_SWS.DMA_CP.TX_DATA[0] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+UUT_SWS.CPU_CP.current_state_fast[2]                         FD1P3DZ     Q        Out     0.796     0.796 r      -         
+current_state_fast[2]                                        Net         -        -       1.599     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        A        In      -         2.395 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        Z        Out     0.661     3.056 r      -         
+RAM_ADDR_sn_m2_a0_2                                          Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        A        In      -         4.427 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        Z        Out     0.661     5.089 f      -         
+RAM_ADDR_sn_m2_0_1                                           Net         -        -       1.371     -            3         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        A        In      -         6.460 f      -         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        Z        Out     0.661     7.121 r      -         
+address_0_sx[1]                                              Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        C        In      -         8.492 r      -         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        Z        Out     0.517     9.009 f      -         
+address_0[1]                                                 Net         -        -       1.371     -            7         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        D        In      -         10.380 f     -         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        Z        Out     0.424     10.804 f     -         
+address_1[6]                                                 Net         -        -       1.371     -            551       
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_134_RNI5VB91C[0]      LUT4        C        In      -         12.175 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_134_RNI5VB91C[0]      LUT4        Z        Out     0.558     12.733 r     -         
+un8_databus_97_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_198_RNI75VFUH[0]      LUT4        C        In      -         14.104 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_198_RNI75VFUH[0]      LUT4        Z        Out     0.558     14.662 f     -         
+N_769                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_230_RNI4PSH0G1[0]     LUT4        A        In      -         16.033 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_230_RNI4PSH0G1[0]     LUT4        Z        Out     0.661     16.695 r     -         
+un8_databus_109_ns_1[0]                                      Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNIAOTD2Q2[0]     LUT4        C        In      -         18.066 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNIAOTD2Q2[0]     LUT4        Z        Out     0.558     18.624 r     -         
+N_865                                                        Net         -        -       1.371     -            2         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNIIH2GDQ1[0]     LUT4        A        In      -         19.995 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNIIH2GDQ1[0]     LUT4        Z        Out     0.661     20.656 r     -         
+N_993                                                        Net         -        -       1.371     -            5         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        B        In      -         22.027 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        Z        Out     0.589     22.616 r     -         
+N_8_1                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        A        In      -         23.988 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        Z        Out     0.661     24.649 r     -         
+N_10_1                                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        A        In      -         26.020 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        Z        Out     0.661     26.681 r     -         
+N_5_li_0                                                     Net         -        -       1.371     -            1         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        A        In      -         28.052 r     -         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        Z        Out     0.661     28.714 r     -         
+TX_DATA_2[0]                                                 Net         -        -       1.507     -            1         
+UUT_SWS.DMA_CP.TX_DATA[0]                                    FD1P3DZ     D        In      -         30.221 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 30.376 is 9.447(31.1%) logic and 20.929(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.155
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         4.845
+
+    - Propagation time:                      30.221
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -25.376
+
+    Number of logic level(s):                14
+    Starting point:                          UUT_SWS.CPU_CP.current_state_fast[2] / Q
+    Ending point:                            UUT_SWS.DMA_CP.TX_DATA[0] / D
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising] on pin CK
+
+Instance / Net                                                           Pin      Pin               Arrival      No. of    
+Name                                                         Type        Name     Dir     Delay     Time         Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+UUT_SWS.CPU_CP.current_state_fast[2]                         FD1P3DZ     Q        Out     0.796     0.796 r      -         
+current_state_fast[2]                                        Net         -        -       1.599     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        A        In      -         2.395 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNIP5PHR[2]                LUT4        Z        Out     0.661     3.056 r      -         
+RAM_ADDR_sn_m2_a0_2                                          Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        A        In      -         4.427 r      -         
+UUT_SWS.CPU_CP.current_state_fast_RNI0INLI1[2]               LUT4        Z        Out     0.661     5.089 f      -         
+RAM_ADDR_sn_m2_0_1                                           Net         -        -       1.371     -            3         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        A        In      -         6.460 f      -         
+UUT_SWS.CPU_CP.current_state_RNIPBJ6U1[0]                    LUT4        Z        Out     0.661     7.121 r      -         
+address_0_sx[1]                                              Net         -        -       1.371     -            1         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        C        In      -         8.492 r      -         
+UUT_SWS.CPU_CP.current_state_RNI5F9084[0]                    LUT4        Z        Out     0.517     9.009 f      -         
+address_0[1]                                                 Net         -        -       1.371     -            7         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        D        In      -         10.380 f     -         
+UUT_SWS.CPU_CP.un9_ram_addr_cry_5_c_0_RNIHJ7PO5              LUT4        Z        Out     0.424     10.804 f     -         
+address_1[6]                                                 Net         -        -       1.371     -            551       
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_12_RNIFSKN4C[0]       LUT4        C        In      -         12.175 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_12_RNIFSKN4C[0]       LUT4        Z        Out     0.558     12.733 r     -         
+un8_databus_49_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_76_RNIB9155I[0]       LUT4        C        In      -         14.104 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_76_RNIB9155I[0]       LUT4        Z        Out     0.558     14.662 f     -         
+N_385                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_108_RNIEHNJ1G1[0]     LUT4        A        In      -         16.033 f     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_108_RNIEHNJ1G1[0]     LUT4        Z        Out     0.661     16.695 r     -         
+un8_databus_61_ns_1[0]                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_124_RNINUG29Q2[0]     LUT4        C        In      -         18.066 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_124_RNINUG29Q2[0]     LUT4        Z        Out     0.558     18.624 r     -         
+N_481                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8DHIEQ1[0]     LUT4        B        In      -         19.995 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_116_RNI8DHIEQ1[0]     LUT4        Z        Out     0.589     20.584 r     -         
+N_489                                                        Net         -        -       1.371     -            6         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        A        In      -         21.955 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_118_RNI2T2BOQ3[0]     LUT4        Z        Out     0.661     22.616 r     -         
+N_8_1                                                        Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        A        In      -         23.988 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNI3HHF4P3[0]     LUT4        Z        Out     0.661     24.649 r     -         
+N_10_1                                                       Net         -        -       1.371     -            1         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        A        In      -         26.020 r     -         
+UUT_SWS.RAM_CP.RAM_Write\.contents_ram_112_RNIHBMG3T3[0]     LUT4        Z        Out     0.661     26.681 r     -         
+N_5_li_0                                                     Net         -        -       1.371     -            1         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        A        In      -         28.052 r     -         
+UUT_SWS.DMA_CP.TX_DATA_RNO[0]                                LUT4        Z        Out     0.661     28.714 r     -         
+TX_DATA_2[0]                                                 Net         -        -       1.507     -            1         
+UUT_SWS.DMA_CP.TX_DATA[0]                                    FD1P3DZ     D        In      -         30.221 r     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 30.376 is 9.447(31.1%) logic and 20.929(68.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 314MB peak: 318MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 314MB peak: 318MB)
+
+---------------------------------------
+Resource Usage Report for iCE_SWS 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          42 uses
+FD1P3BZ         3 uses
+FD1P3DZ         2183 uses
+INV             16 uses
+VHI             9 uses
+VLO             9 uses
+LUT4            2053 uses
+
+I/O ports: 8
+I/O primitives: 6
+IB             2 uses
+OB             4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   2186 of 5280 (41%)
+Total load per clock:
+   iCE_SWS|CLK_SOURCE: 1
+
+@S |Mapping Summary:
+Total  LUTs: 2053 (38%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 2053 = 2053 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:15s; Memory used current: 136MB peak: 318MB)
+
+Process took 0h:00m:15s realtime, 0h:00m:15s cputime
+# Fri Jun 27 14:05:30 2025
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

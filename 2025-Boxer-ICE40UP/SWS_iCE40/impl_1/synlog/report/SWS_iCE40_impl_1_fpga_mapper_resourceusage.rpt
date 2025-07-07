@@ -1,0 +1,27 @@
+---------------------------------------
+Resource Usage Report for iCE_SWS 
+
+Mapping to part: ice40up5ksg48i-6
+Cell usage:
+CCU2_B          42 uses
+FD1P3BZ         3 uses
+FD1P3DZ         2183 uses
+INV             16 uses
+VHI             9 uses
+VLO             9 uses
+LUT4            2053 uses
+
+I/O ports: 8
+I/O primitives: 6
+IB             2 uses
+OB             4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   2186 of 5280 (41%)
+
+@S |Mapping Summary:
+Total  LUTs: 2053 (38%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed LUTs 2053 = 2053 
+

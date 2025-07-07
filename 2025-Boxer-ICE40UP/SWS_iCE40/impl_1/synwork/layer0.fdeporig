@@ -1,0 +1,111 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|iCE_SWS|-layerid|0|-orig_srs|C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\impl_1\\synwork\\SWS_iCE40_impl_1_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-sdff_counter|-nram|-divnmod|-nostructver|-lattice|-ice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|pmi|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\bin64\\c_vhdl.exe":1727995157
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\location.map":1730962033
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\std.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\std1164.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\numeric.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\umr_capim.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\arith.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\unsigned.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\synpbase\\lib\\vhd\\hyperents.vhd":1727995172
+#CUR:"C:\\lscc\\radiant\\2024.2\\ip\\pmi\\pmi_iCE40UP.vhd":1648538958
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\INST_pkg.vhd":1748425321
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\MEM_pkg.vhd":1748425427
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_transmitter.vhd":1748424704
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_shiftregister.vhd":1748424761
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_receiver.vhd":1748424822
+#CUR:"C:\\lscc\\radiant\\2024.2\\cae_library\\synthesis\\vhdl\\iCE40UP.vhd":1534890897
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232_fifo.vhd":1751025862
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RS232.vhd":1750678527
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\ALU.vhd":1748425068
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\CPU.vhd":1748425098
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\DMA.vhd":1748425202
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\RAM.vhd":1750755272
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\ROM.vhd":1748432398
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\SWS_top.vhd":1748424662
+#CUR:"C:\\Users\\worbb\\Desktop\\IMA\\FPGA\\SWS_iCE40\\source\\impl_1\\iCE40_SWS.vhd":1748432516
+0 "C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.vhd" vhdl
+1 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd" vhdl
+2 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\MEM_pkg.vhd" vhdl
+3 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd" vhdl
+4 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd" vhdl
+5 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd" vhdl
+6 "C:\lscc\radiant\2024.2\cae_library\synthesis\vhdl\iCE40UP.vhd" vhdl
+7 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd" vhdl
+8 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd" vhdl
+9 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd" vhdl
+10 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd" vhdl
+11 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd" vhdl
+12 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd" vhdl
+13 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd" vhdl
+14 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd" vhdl
+15 "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 2 
+8 3 5 4 7 
+9 1 
+10 1 
+11 2 
+12 2 
+13 1 2 
+14 8 11 12 9 13 10 1 
+15 14 
+
+# Dependency Lists (Users Of)
+0 -1
+1 14 13 10 9 
+2 13 12 11 7 
+3 8 
+4 8 
+5 8 
+6 -1
+7 8 
+8 14 
+9 14 
+10 14 
+11 14 
+12 14 
+13 14 
+14 15 
+15 -1
+
+# Design Unit to File Association
+arch work rs232_transmitter transmitter_behavior 3
+module work rs232_transmitter 3
+arch work rs232_shiftregister sr_behavior 4
+module work rs232_shiftregister 4
+arch work rs232_receiver receiver_behavior 5
+module work rs232_receiver 5
+arch work rs232_fifo fifo_behaviour 7
+module work rs232_fifo 7
+arch work rs232 rs232_behavior 8
+module work rs232 8
+arch work alu alu_behavior 9
+module work alu 9
+arch work cpu cpu_behavior 10
+module work cpu 10
+arch work dma dma_behavior 11
+module work dma 11
+arch work ram ram_behavior 12
+module work ram 12
+arch work rom rom_behavior 13
+module work rom 13
+arch work sws_top sws_top_behavior 14
+module work sws_top 14
+arch work ice_sws sws_behavior 15
+module work ice_sws 15
+
+# Unbound Instances to File Association
+
+#identified top module
+top_module iCE_SWS

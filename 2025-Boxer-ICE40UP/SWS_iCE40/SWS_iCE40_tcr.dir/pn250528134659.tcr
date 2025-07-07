@@ -1,0 +1,29 @@
+#Start recording tcl command: 5/28/2025 09:39:14
+#Project Location: C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40; Project name: SWS_iCE40
+prj_open "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/SWS_iCE40.rdf"
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1 -task Synplify_Synthesis
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Map -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_remove_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/rgbmap.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/SWS_top.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/RS232_transmitter.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/RS232_shiftregister.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/RS232_receiver.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/RS232.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/ALU.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/CPU.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/DMA.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/INST_pkg.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/MEM_pkg.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/RAM.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/ROM.vhd"
+prj_add_source "C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/iCE40_SWS.vhd"
+#Stop recording: 5/28/2025 13:46:59

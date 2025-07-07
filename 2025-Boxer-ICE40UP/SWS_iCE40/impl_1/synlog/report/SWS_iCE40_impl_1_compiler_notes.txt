@@ -1,0 +1,105 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd":26:7:26:13|Top entity is set to iCE_SWS.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\MEM_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2024.2\cae_library\synthesis\vhdl\iCE40UP.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd'.
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd":79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to "1000000000000".
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd":79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to "1000000000000".
+@N|Running in 64-bit mode
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":313:13:313:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v":333:13:333:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_complex_mult.v":92:11:92:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_complex_mult.v":101:11:101:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":129:13:129:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/counter/rtl\lscc_cntr.v":143:13:143:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3271:17:3271:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3278:17:3278:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3335:17:3335:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3342:17:3342:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3397:17:3397:29|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo/rtl\lscc_fifo.v":3404:17:3404:28|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5121:25:5121:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5125:25:5125:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5156:29:5156:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v":5160:29:5160:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_mac.v":94:11:94:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_mac.v":109:11:109:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":210:13:210:25|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v":227:13:227:24|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsubsum.v":84:11:84:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsubsum.v":93:11:93:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsub.v":91:11:91:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_multaddsub.v":100:11:100:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_mult.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_mult.v":96:11:96:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1060:25:1060:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1064:25:1064:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1095:29:1095:41|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":1099:29:1099:40|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1485:25:1485:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v":1491:25:1491:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\../common/rom/rtl\lscc_rom.v":970:25:970:37|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\../common/rom/rtl\lscc_rom.v":976:25:976:36|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp_be.v":146:11:146:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dp_be.v":155:11:155:22|Read directive translate_on.
+@N: CG334 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq_be.v":87:11:87:23|Read directive translate_off.
+@N: CG333 :"C:\lscc\radiant\2024.2\ip\pmi\pmi_ram_dq_be.v":95:11:95:22|Read directive translate_on.
+@N:"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd":26:7:26:13|Top entity is set to iCE_SWS.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2024.2\ip\pmi\pmi_iCE40UP.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\MEM_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\radiant\2024.2\cae_library\synthesis\vhdl\iCE40UP.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd'.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd":26:7:26:13|Synthesizing work.ice_sws.sws_behavior.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\SWS_top.vhd":27:7:27:13|Synthesizing work.sws_top.sws_top_behavior.
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd":79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to "1000000000000".
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd":28:7:28:9|Synthesizing work.cpu.cpu_behavior.
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd":79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to "1000000000000".
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd":56:16:56:17|Using onehot encoding for type states. For example, enumeration idle is mapped to "1000000".
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ROM.vhd":28:7:28:9|Synthesizing work.rom.rom_behavior.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd":27:7:27:9|Synthesizing work.alu.alu_behavior.
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\INST_pkg.vhd":79:18:79:19|Using onehot encoding for type alu_op_t. For example, enumeration nop is mapped to "1000000000000".
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RAM.vhd":28:7:28:9|Synthesizing work.ram.ram_behavior.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd":28:7:28:9|Synthesizing work.dma.dma_behavior.
+@N: CD231 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd":59:16:59:17|Using onehot encoding for type states. For example, enumeration idle is mapped to "10000000".
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd":26:7:26:11|Synthesizing work.rs232.rs232_behavior.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd":25:7:25:16|Synthesizing work.rs232_fifo.fifo_behaviour.
+@N: CL134 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd":43:8:43:20|Found RAM contents_fifo, depth=4, width=8
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_shiftregister.vhd":25:7:25:25|Synthesizing work.rs232_shiftregister.sr_behavior.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd":26:7:26:20|Synthesizing work.rs232_receiver.receiver_behavior.
+@N: CD233 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd":41:16:41:17|Using sequential encoding for type states.
+@N: CD630 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd":26:7:26:23|Synthesizing work.rs232_transmitter.transmitter_behavior.
+@N: CD233 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd":41:16:41:17|Using sequential encoding for type states.
+@N: CL201 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_transmitter.vhd":103:16:103:17|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd":133:16:133:17|Trying to extract state machine for register current_state.
+@N: CL201 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd":250:16:250:17|Trying to extract state machine for register current_state.
+@N: CL159 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\DMA.vhd":34:8:34:14|Input RX_FULL is unused.
+@N: CL201 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd":292:16:292:17|Trying to extract state machine for register current_state.
+@N: CL159 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd":48:8:48:13|Input FLAG_E is unused.
+@N|Running in 64-bit mode
+

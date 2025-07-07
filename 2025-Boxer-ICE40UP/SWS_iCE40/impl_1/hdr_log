@@ -1,0 +1,12 @@
+synthesis:  version Radiant Software (64-bit) 2024.2.0.3.0
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2024 Lattice Semiconductor Corporation,  All rights reserved.
+Mon Jun 23 13:20:28 2025
+
+
+Command Line:  synthesis -comp -f SWS_iCE40_impl_1_lattice.synproj -gui -msgset C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/promote.xml 
+

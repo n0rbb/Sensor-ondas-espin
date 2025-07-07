@@ -1,0 +1,4 @@
+@E: CD169 :"C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\rgbmap.vhd":11:0:11:11|Illegal declaration
+@E: Parse errors encountered - exiting
+@E::VHDL compiler failed
+

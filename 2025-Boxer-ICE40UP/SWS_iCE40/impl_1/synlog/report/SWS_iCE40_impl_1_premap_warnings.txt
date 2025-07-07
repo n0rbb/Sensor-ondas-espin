@@ -1,0 +1,1 @@
+@W: MT530 :"c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd":103:16:103:17|Found inferred clock iCE_SWS|CLK_SOURCE which controls 2265 sequential elements including UUT_SWS.RS232_CP.Transmitter.current_state[1]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -34,17 +34,13 @@ end ROM;
 
 architecture ROM_Behavior of ROM is
     -- # INIT (POLLING)
-    constant W0  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_MEM & DST_A;
-    constant W1  : std_logic_vector(11 downto 0) := X"0" & NEW_INST;
-    constant W2  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_B;
-    constant W3  : std_logic_vector(11 downto 0) := X"0FF";
-    constant W4  : std_logic_vector(11 downto 0) := X"0" & TYPE_1 & ALU_CMPL;
-    constant W5  : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_COND;
-    constant W6  : std_logic_vector(11 downto 0) := INI;
-    constant W7  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_ACC;
-    constant W8  : std_logic_vector(11 downto 0) := X"000";
-    constant W9  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & SW & SRC_ACC & DST_MEM;
-    constant W10 : std_logic_vector(11 downto 0) := X"0" & NEW_INST;
+    constant W0  : std_logic_vector(11 downto 0) := X"0" & TYPE_2 & JMP_UNCOND;
+    constant W1  : std_logic_vector(11 downto 0) := INI;
+    
+    --constant W7  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_ACC;
+    --constant W8  : std_logic_vector(11 downto 0) := X"000";
+    --constant W9  : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & SW & SRC_ACC & DST_MEM;
+    --constant W10 : std_logic_vector(11 downto 0) := X"0" & NEW_INST;
     constant W11 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_MEM & DST_A;
     constant W12 : std_logic_vector(11 downto 0) := X"0" & DMA_RX_BUFFER_MSB;
     constant W13 : std_logic_vector(11 downto 0) := X"0" & TYPE_3 & LD & SRC_CONST & DST_B; 
@@ -114,15 +110,15 @@ architecture ROM_Behavior of ROM is
             INSTRUCTION <= 
                 W0 when X"000",
                 W1 when X"001",
-                W2 when X"002",
-                W3 when X"003",
-                W4 when X"004",
-                W5 when X"005",
-                W6 when X"006",
-                W7 when X"007",
-                W8 when X"008",
-                W9 when X"009",
-                W10 when X"00A",
+--                W2 when X"002",
+--                W3 when X"003",
+--                W4 when X"004",
+--                W5 when X"005",
+--                W6 when X"006",
+--                W7 when X"007",
+--                W8 when X"008",
+--                W9 when X"009",
+--                W10 when X"00A",
                 W11 when X"00B",
                 W12 when X"00C",
                 W13 when X"00D",

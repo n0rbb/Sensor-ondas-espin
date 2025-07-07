@@ -47,21 +47,28 @@ entity CPU is
         FLAG_Z      : in std_logic;
         FLAG_E      : in std_logic;
 
-        DATABUS     : inout std_logic_vector(7 downto 0)
+        DATABUS     : inout std_logic_vector(7 downto 0);
         
+        -- Interrupciones
+        DMA_INTERRUPT : in std_logic;
+        INTERRUPT_ACK : out std_logic
     );
 end CPU;
 
 architecture CPU_Behavior of CPU is
-    type states is (Idle, Fetch, OpFetch, Decode, Execute, Receive, Transmit);
+    type states is (Idle, Fetch, OpFetch, Decode, Execute, Receive, Transmit, Interrupt);
 	signal current_state, next_state: states;
 
 	signal pc_reg, ins_reg, tmp_reg: std_logic_vector(7 downto 0); -- CPU registers
 	signal pc, ins, tmp: std_logic_vector(7 downto 0); -- Combinational signals
+	signal pc_ctx_reg, ins_ctx_reg, tmp_ctx_reg : std_logic_vector(7 downto 0); --Registros para contexto de la CPU
+	signal int_ack_flag : std_logic; -- Flag de atención a interrupciones
+	
 
     begin
+        
         -- Processes
-        CPU_FSM : process(current_state, pc_reg, ins_reg, tmp_reg, FLAG_Z, INDEX_REG, DMA_RQ, DMA_READY, ROM_INST)
+        CPU_FSM : process(current_state, pc_reg, ins_reg, tmp_reg, int_ack_flag, FLAG_Z, INDEX_REG, DMA_RQ, DMA_READY, ROM_INST)
             begin
                 -- Default combinational values
                 -- Program counter
@@ -77,16 +84,22 @@ architecture CPU_Behavior of CPU is
                 DMA_SEND    <= '0';
 
                 ALU_OP      <= nop;
+                
 
                 ins <= ins_reg;
                 pc  <= pc_reg;
                 tmp <= tmp_reg;
+                
+                INTERRUPT_ACK <= int_ack_flag;
 
                 -- FSM
                 case current_state is
                     when Idle =>
                         if DMA_RQ = '1' then
                             next_state <= Receive;
+                            
+                        elsif DMA_INTERRUPT = '1' then
+                            next_state <= Interrupt;
 
                         else
                             next_state <= Fetch;
@@ -162,7 +175,7 @@ architecture CPU_Behavior of CPU is
                             when TYPE_2 =>
                                 case ins_reg(5 downto 0) is 
                                     when JMP_UNCOND =>
-                                        pc  <= tmp_reg;
+                                        pc <= tmp_reg;
                                     
                                     when JMP_COND =>
                                         if FLAG_Z = '1' then
@@ -282,6 +295,19 @@ architecture CPU_Behavior of CPU is
                         else
                             next_state <= Transmit;
                         end if;
+                        
+                    when Interrupt =>
+                        if int_ack_flag = '1' then  
+                            --INTERRUPT_ACK <= '1';
+                            pc <= X"0B"; --paso a W11
+                            next_state <= Idle;
+                        else
+                            --INTERRUPT_ACK <= '0';
+                            --int_ack_flag <= '1';
+                            ALU_OP <= op_savecontext;
+                            next_state <= Interrupt;
+                        end if;
+                    when others =>
 
                 end case;
                 
@@ -295,8 +321,24 @@ architecture CPU_Behavior of CPU is
                     tmp_reg <= (others=>'0'); -- 
 
                     current_state <= Idle;
+                    
+                    pc_ctx_reg <= (others => '0');
+                    ins_ctx_reg <= (others => '0');
+                    tmp_ctx_reg <= (others => '0');
+                    
+                    int_ack_flag <= '0';
             
                 elsif CLK_PORT'event and CLK_PORT = '1' then
+                    if current_state = Interrupt and int_ack_flag = '0' then
+	                   --Salvo el contexto de la CPU
+	                   pc_ctx_reg <= pc;
+	                   ins_ctx_reg <= ins;
+	                   tmp_ctx_reg <= tmp;
+	                   int_ack_flag <= '1';
+	                else
+	                   int_ack_flag <= '0';	         
+	                end if;
+	                
                     pc_reg <= pc;
                     ins_reg <= ins;
                     tmp_reg <= tmp;

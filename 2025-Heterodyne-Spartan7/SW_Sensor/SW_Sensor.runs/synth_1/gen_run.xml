@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1745748410" LaunchIncrCheckpoint="$PPRDIR/../../../FPGA/SW_Sensor/SW_Sensor.srcs/utils_1/imports/synth_1/Spartan_SWS.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7s25csga225-1" LaunchTime="1750848517" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Spartan_SWS.dcp">
   <File Type="REPORTS-TCL" Name="Spartan_SWS_reports.tcl"/>
   <File Type="RDS-UTIL" Name="Spartan_SWS_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Spartan_SWS_utilization_synth.pb"/>
@@ -94,6 +94,12 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/RS232_fifo.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="Spartan_SWS"/>
@@ -130,5 +136,4 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="RS232_fifo"/>
 </GenRun>

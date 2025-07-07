@@ -88,6 +88,9 @@ architecture SWS_top_Behavior of SWS_top is
             SEND_COMM 	: in std_logic;
             DMA_RQ 		: out std_logic;
             READY 		: out std_logic;	
+            
+            INTERRUPT_ACK : in std_logic;
+            DMA_INTERRUPT : out std_logic;
 
             DATABUS 	: inout std_logic_vector(7 downto 0)
         );
@@ -149,6 +152,8 @@ architecture SWS_top_Behavior of SWS_top is
             DMA_READY   : in std_logic;
             DMA_ACK     : out std_logic;
             DMA_SEND    : out std_logic;
+            DMA_INTERRUPT : in std_logic;
+            INTERRUPT_ACK : out std_logic;
 
             ALU_OP      : out alu_op_t;
             INDEX_REG   : in std_logic_vector(7 downto 0);
@@ -193,6 +198,8 @@ architecture SWS_top_Behavior of SWS_top is
     signal dma_ack      : std_logic;
     signal send_comm    : std_logic;
     signal ready        : std_logic;
+    signal dma_interrupt : std_logic;
+    signal interrupt_ack : std_logic;
 
     --ROM <> CPU
     signal instruction  : std_logic_vector(11 downto 0);
@@ -252,6 +259,9 @@ architecture SWS_top_Behavior of SWS_top is
                 SEND_COMM 	=> send_comm,
                 DMA_RQ 		=> dma_rq,
                 READY 		=> ready,
+                
+                DMA_INTERRUPT => dma_interrupt,
+                INTERRUPT_ACK => interrupt_ack,
 
                 DATABUS 	=> databus
 
@@ -308,6 +318,8 @@ architecture SWS_top_Behavior of SWS_top is
                 DMA_READY   => ready,
                 DMA_ACK     => dma_ack,
                 DMA_SEND    => send_comm,
+                DMA_INTERRUPT => dma_interrupt,
+                INTERRUPT_ACK => interrupt_ack,
 
                 ALU_OP      => uoperation,
                 INDEX_REG   => index_reg,

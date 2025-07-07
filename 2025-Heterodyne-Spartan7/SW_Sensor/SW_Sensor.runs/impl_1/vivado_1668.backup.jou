@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jun 25 12:52:32 2025
+# Process ID         : 1668
+# Current directory  : C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.runs/impl_1
+# Command line       : vivado.exe -log Spartan_SWS.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Spartan_SWS.tcl -notrace
+# Log file           : C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.runs/impl_1/Spartan_SWS.vdi
+# Journal file       : C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.runs/impl_1\vivado.jou
+# Running On         : DESKTOP-NDA5VSL
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-1038NG7 CPU @ 2.00GHz
+# CPU Frequency      : 1997 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16972 MB
+# Swap memory        : 2550 MB
+# Total Virtual      : 19523 MB
+# Available Virtual  : 9716 MB
+#-----------------------------------------------------------
+source Spartan_SWS.tcl -notrace

@@ -1,0 +1,8 @@
+i CLK_SOURCE
+m 0 0
+u 299 2258
+p {p:CLK_SOURCE}{t:UUT_SWS.CLK_PORT}{p:UUT_SWS.CLK_PORT}{t:UUT_SWS.CPU_CP.CLK_PORT}{p:UUT_SWS.CPU_CP.CLK_PORT}{t:UUT_SWS.CPU_CP.current_state[0].C}
+e ckid0_0 {t:UUT_SWS.CPU_CP.current_state[0].C} dffr
+c ckid0_0 {p:CLK_SOURCE} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

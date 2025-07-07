@@ -1,0 +1,365 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09LR-2
+Install: C:\lscc\radiant\2024.2\synpbase
+OS: Windows 10 or later
+Hostname: DESKTOP-NDA5VSL
+
+Implementation : impl_1
+
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48I-6 (Lattice)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   iCE_SWS   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BZ         3                                       
+FD1P3DZ         2183                                    
+                                                        
+Total FLOPS     2186               100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block iCE_SWS:	2186 (50.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   2053                                    
+INV                    16                                      
+CCU2_B                 42                                      
+                                                               
+Total LUTS             2069               100 %                
+Total CARRY CHAINS     42                 100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block iCE_SWS:	2111 (48.85 % Utilization)
+
+
+IO PADS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+IB           2                                       
+OB           4                                       
+                                                     
+TOTAL IO     6                  100 %                
+=====================================================
+Total IO PADS in the block iCE_SWS:	6 (0.14 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 9                                       
+VHI                 9                                       
+                                                            
+Total BLACK BOX     18                 100 %                
+============================================================
+Total BLACKBOX in the block iCE_SWS:	18 (0.42 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   SWS_top   ########
+Instance path:   UUT_SWS                                     
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BZ         3                                       
+FD1P3DZ         2183                                    
+                                                        
+Total FLOPS     2186               100 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS:	2186 (50.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   2053                                    
+INV                    16                                      
+CCU2_B                 42                                      
+                                                               
+Total LUTS             2069               100 %                
+Total CARRY CHAINS     42                 100 %                
+===============================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS:	2111 (48.85 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 8                                       
+VHI                 8                                       
+                                                            
+Total BLACK BOX     16                 88.9 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS:	16 (0.37 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   ALU   ########
+Instance path:   UUT_SWS.ALU_CP                          
+Parent Instance:   UUT_SWS                               
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         33                                      
+                                                        
+Total FLOPS     33                 1.51 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS.ALU_CP:	33 (0.76 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+INV                    16                                      
+LUT4                   75                                      
+CCU2_B                 10                                      
+                                                               
+Total LUTS             91                 4.4 %                
+Total CARRY CHAINS     10                 23.8 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.ALU_CP:	101 (2.34 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  11.1 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.ALU_CP:	2 (0.05 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   CPU   ########
+Instance path:   UUT_SWS.CPU_CP                          
+Parent Instance:   UUT_SWS                               
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         35                                      
+FD1P3BZ         1                                       
+                                                        
+Total FLOPS     36                 1.65 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS.CPU_CP:	36 (0.83 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   74                                      
+CCU2_B                 10                                      
+                                                               
+Total LUTS             74                 3.58 %               
+Total CARRY CHAINS     10                 23.8 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.CPU_CP:	84 (1.94 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  11.1 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.CPU_CP:	2 (0.05 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   DMA   ########
+Instance path:   UUT_SWS.DMA_CP                          
+Parent Instance:   UUT_SWS                               
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         44                                      
+FD1P3BZ         1                                       
+                                                        
+Total FLOPS     45                 2.06 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS.DMA_CP:	45 (1.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   31                                      
+CCU2_B                 17                                      
+                                                               
+Total LUTS             31                 1.5 %                
+Total CARRY CHAINS     17                 40.5 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.DMA_CP:	48 (1.11 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  11.1 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.DMA_CP:	2 (0.05 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   RAM   ########
+Instance path:   UUT_SWS.RAM_CP                          
+Parent Instance:   UUT_SWS                               
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         2048                                    
+                                                        
+Total FLOPS     2048               93.7 %               
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS.RAM_CP:	2048 (47.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           1804                                    
+                                                       
+Total LUTS     1804               87.2 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.RAM_CP:	1804 (41.75 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  11.1 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.RAM_CP:	2 (0.05 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   ROM   ########
+Instance path:   UUT_SWS.ROM_CP                          
+Parent Instance:   UUT_SWS                               
+=========================================================
+
+COMBINATIONAL LOGIC
+Name           Total elements     Utilization     Notes
+-------------------------------------------------------
+LUT4           45                                      
+                                                       
+Total LUTS     45                 2.17 %               
+=======================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.ROM_CP:	45 (1.04 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  11.1 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.ROM_CP:	2 (0.05 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   RS232   ########
+Instance path:   UUT_SWS.RS232_CP                          
+Parent Instance:   UUT_SWS                                 
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3BZ         1                                       
+FD1P3DZ         23                                      
+                                                        
+Total FLOPS     24                 1.1 %                
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS.RS232_CP:	24 (0.56 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   24                                      
+CCU2_B                 5                                       
+                                                               
+Total LUTS             24                 1.16 %               
+Total CARRY CHAINS     5                  11.9 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.RS232_CP:	29 (0.67 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 2                                       
+VHI                 2                                       
+                                                            
+Total BLACK BOX     4                  22.2 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.RS232_CP:	4 (0.09 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   RS232_transmitter   ########
+Instance path:   UUT_SWS.RS232_CP.Transmitter                          
+Parent Instance:   UUT_SWS.RS232_CP                                    
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name            Total elements     Utilization     Notes
+--------------------------------------------------------
+FD1P3DZ         14                                      
+                                                        
+Total FLOPS     14                 0.640 %              
+========================================================
+Total SEQUENTIAL ELEMENTS in the block UUT_SWS.RS232_CP.Transmitter:	14 (0.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name                   Total elements     Utilization     Notes
+---------------------------------------------------------------
+LUT4                   24                                      
+CCU2_B                 5                                       
+                                                               
+Total LUTS             24                 1.16 %               
+Total CARRY CHAINS     5                  11.9 %               
+===============================================================
+Total COMBINATIONAL LOGIC in the block UUT_SWS.RS232_CP.Transmitter:	29 (0.67 % Utilization)
+
+
+BLACKBOX
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+VLO                 1                                       
+VHI                 1                                       
+                                                            
+Total BLACK BOX     2                  11.1 %               
+============================================================
+Total BLACKBOX in the block UUT_SWS.RS232_CP.Transmitter:	2 (0.05 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

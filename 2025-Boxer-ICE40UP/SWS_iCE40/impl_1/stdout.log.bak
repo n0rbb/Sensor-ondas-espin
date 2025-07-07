@@ -1,0 +1,39 @@
+Running in Lattice mode
+
+                               Synplify Pro (R) 
+
+                Version V-2023.09LR-2 for win64 - Oct 03, 2024 
+
+                    Copyright (c) 1988 - 2024 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Starting:    C:\lscc\radiant\2024.2\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\radiant\2024.2\synpbase
+Hostname:    DESKTOP-NDA5VSL
+Date:        Mon Jun 23 13:29:50 2025
+Version:     V-2023.09LR-2
+
+Arguments:   -product synplify_base -batch SWS_iCE40_impl_1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\impl_1\SWS_iCE40_impl_1.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...

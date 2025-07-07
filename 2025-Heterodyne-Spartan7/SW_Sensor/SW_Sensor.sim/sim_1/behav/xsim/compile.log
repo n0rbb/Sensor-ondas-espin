@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/RS232_fifo.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'RS232_fifo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/worbb/Desktop/IMA/Sensor-ondas-espin/2025-Heterodyne-Spartan7/SW_Sensor/SW_Sensor.srcs/sources_1/new/DMA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DMA'

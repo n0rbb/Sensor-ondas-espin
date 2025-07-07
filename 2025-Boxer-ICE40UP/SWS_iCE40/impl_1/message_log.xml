@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synthesis">
+        <Message>
+            <ID>2012402</ID>
+            <Severity>16</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:72:11:72:13|Signal clk is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd</Navigation>
+            <Navigation>72</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>72</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal clk is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012402</ID>
+            <Severity>16</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:8:45:13|Signal full_s is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal full_s is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012402</ID>
+            <Severity>16</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:16:45:22|Signal empty_s is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Signal empty_s is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012907</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:16:45:22|Signal empty_s is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>Signal empty_s is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012907</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL240 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:45:8:45:13|Signal full_s is floating; a simulation mismatch is possible.</Dynamic>
+            <Navigation>CL240</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>45</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Signal full_s is floating; a simulation mismatch is possible.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012864</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:66:12:66:13|All reachable assignments to count(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>All reachable assignments to count(0) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012864</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:66:12:66:13|All reachable assignments to count(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>All reachable assignments to count(1) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012864</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL111 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd&quot;:66:12:66:13|All reachable assignments to count(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>All reachable assignments to count(2) are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012889</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd&quot;:186:12:186:13|Pruning unused register linerd_in_2. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232.vhd</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>186</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Pruning unused register linerd_in_2. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012897</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL190 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:133:16:133:17|Optimizing register bit data_count(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>CL190</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd</Navigation>
+            <Navigation>133</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>133</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Optimizing register bit data_count(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012913</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd&quot;:133:16:133:17|Pruning register bit 3 of data_count(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\RS232_receiver.vhd</Navigation>
+            <Navigation>133</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>133</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Pruning register bit 3 of data_count(3 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012910</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd&quot;:32:10:32:15|Input port bit 12 of alu_op(0 to 12) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\ALU.vhd</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Input port bit 12 of alu_op(0 to 12) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2012909</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL246 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd&quot;:33:8:33:15|Input port bits 11 to 8 of rom_inst(11 downto 0) are unused. Assign logic for all port bits or change the input port size.</Dynamic>
+            <Navigation>CL246</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\CPU.vhd</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>33</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Input port bits 11 to 8 of rom_inst(11 downto 0) are unused. Assign logic for all port bits or change the input port size.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012910</ID>
+            <Severity>16</Severity>
+            <Dynamic>CL247 :&quot;C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd&quot;:32:8:32:10|Input port bit 1 of btn(1 downto 0) is unused</Dynamic>
+            <Navigation>CL247</Navigation>
+            <Navigation>C:\Users\worbb\Desktop\IMA\FPGA\SWS_iCE40\source\impl_1\iCE40_SWS.vhd</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Input port bit 1 of btn(1 downto 0) is unused </Navigation>
+        </Message>
+        <Message>
+            <ID>2013202</ID>
+            <Severity>16</Severity>
+            <Dynamic>MT530 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd&quot;:103:16:103:17|Found inferred clock iCE_SWS|CLK_SOURCE which controls 2265 sequential elements including UUT_SWS.RS232_CP.Transmitter.current_state[1]. This clock has no specified timing constraint which may adversely impact design performance.</Dynamic>
+            <Navigation>MT530</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_transmitter.vhd</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>103</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Found inferred clock iCE_SWS|CLK_SOURCE which controls 2265 sequential elements including UUT_SWS.RS232_CP.Transmitter.current_state[1]. This clock has no specified timing constraint which may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing sequential instance UUT_SWS.RS232_CP.FIFO.write_ptr[1:0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.read_ptr[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing sequential instance UUT_SWS.RS232_CP.FIFO.write_ptr[1:0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.read_ptr[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing user instance UUT_SWS.RS232_CP.FIFO.SUM0_0 because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.SUM0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing user instance UUT_SWS.RS232_CP.FIFO.SUM0_0 because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.SUM0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing user instance UUT_SWS.RS232_CP.FIFO.CO0_0 because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.CO0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing user instance UUT_SWS.RS232_CP.FIFO.CO0_0 because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.CO0. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>16</Severity>
+            <Dynamic>FX703 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Unable to map RAM instance FIFO.contents_fifo[7:0] to RAM for technology specified.</Dynamic>
+            <Navigation>FX703</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Unable to map RAM instance FIFO.contents_fifo[7:0] to RAM for technology specified. </Navigation>
+        </Message>
+        <Message>
+            <ID>2013170</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO129 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Sequential instance UUT_SWS.DMA_CP.current_state[5] is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>250</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>250</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Sequential instance UUT_SWS.DMA_CP.current_state[5] is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013170</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO129 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:250:16:250:17|Sequential instance UUT_SWS.DMA_CP.current_state[4] is reduced to a combinational gate by constant propagation.</Dynamic>
+            <Navigation>MO129</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>250</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>250</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Sequential instance UUT_SWS.DMA_CP.current_state[4] is reduced to a combinational gate by constant propagation.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram2_[0] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram1_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:43:8:43:20|Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram3_[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.contents_fifo.FIFO.contents_fifo_ram0_[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[7] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[6] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[5] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[4] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[3] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[2] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2012025</ID>
+            <Severity>16</Severity>
+            <Dynamic>BN132 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd&quot;:66:12:66:13|Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rs232_fifo.vhd</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>66</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>Removing instance UUT_SWS.RS232_CP.FIFO.DOUT[1] because it is equivalent to instance UUT_SWS.RS232_CP.FIFO.DOUT[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[7] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[7] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[7] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[7] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[6] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[6] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[6] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[6] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[5] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[5] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[5] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[5] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[4] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[4] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[4] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[4] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[3] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[3] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[3] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[3] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[2] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[2] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[2] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[2] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[1] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[1] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[1] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[1] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013158</ID>
+            <Severity>16</Severity>
+            <Dynamic>MO112 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd&quot;:67:16:67:19|Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[0] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[0] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Dynamic>
+            <Navigation>MO112</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\dma.vhd</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>67</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>Deleting tristate instance UUT_SWS.DMA_CP.DATABUS_6[0] (in view: work.iCE_SWS(sws_behavior)) on net UUT_SWS.databus[0] (in view: work.iCE_SWS(sws_behavior)) because its enable is connected to 0.</Navigation>
+        </Message>
+        <Message>
+            <ID>2013037</ID>
+            <Severity>16</Severity>
+            <Dynamic>FX553 :&quot;c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rom.vhd&quot;:180:32:180:35|Could not implement Block ROM for UUT_SWS.ROM_CP.INSTRUCTION_1[7:0].</Dynamic>
+            <Navigation>FX553</Navigation>
+            <Navigation>c:\users\worbb\desktop\ima\fpga\sws_ice40\source\impl_1\rom.vhd</Navigation>
+            <Navigation>180</Navigation>
+            <Navigation>32</Navigation>
+            <Navigation>180</Navigation>
+            <Navigation>35</Navigation>
+            <Navigation>Could not implement Block ROM for UUT_SWS.ROM_CP.INSTRUCTION_1[7:0].</Navigation>
+        </Message>
+        <Message>
+            <ID>2013187</ID>
+            <Severity>16</Severity>
+            <Dynamic>MT420 |Found inferred clock iCE_SWS|CLK_SOURCE with period 5.00ns. Please declare a user-defined clock on port CLK_SOURCE.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock iCE_SWS|CLK_SOURCE with period 5.00ns. Please declare a user-defined clock on port CLK_SOURCE.</Navigation>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/RS232_CP/Transmitter/pulse_count_cry_c_0[0].CIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/DMA_CP/byte_counter_tx_cry_c_0[0].CIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/ALU_CP/ALU_Core.flag_zero9_cry_0_c_0.CIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/ALU_CP/ALU_Core.flag_zero13_cry_0_c_0.CIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/CPU_CP/un9_ram_addr_cry_0_c_0.CIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/CPU_CP/pc_reg_cry_c_0[0].CIN</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/N_9335</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/N_9336</Dynamic>
+        </Message>
+        <Message>
+            <ID>35811146</ID>
+            <Severity>1</Severity>
+            <Dynamic>UUT_SWS/N_9337</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>No port matched 'a'.</Dynamic>
+            <Navigation>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Dynamic>
+            <Dynamic>2</Dynamic>
+            <Dynamic>No port matched 'b'.</Dynamic>
+            <Navigation>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Navigation>
+            <Navigation>2</Navigation>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>No port matched 'y'.</Dynamic>
+            <Navigation>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>a</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Dynamic>
+            <Dynamic>1</Dynamic>
+            <Dynamic>Can't resolve object 'a' in constraint 'ldc_set_location -site {28} [get_ports a]'.</Dynamic>
+            <Navigation>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Navigation>
+            <Navigation>1</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>b</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Dynamic>
+            <Dynamic>2</Dynamic>
+            <Dynamic>Can't resolve object 'b' in constraint 'ldc_set_location -site {27} [get_ports b]'.</Dynamic>
+            <Navigation>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Navigation>
+            <Navigation>2</Navigation>
+        </Message>
+        <Message>
+            <ID>1027013</ID>
+            <Severity>16</Severity>
+            <Dynamic>port</Dynamic>
+            <Dynamic>y</Dynamic>
+        </Message>
+        <Message>
+            <ID>1026001</ID>
+            <Severity>16</Severity>
+            <Dynamic>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Dynamic>
+            <Dynamic>3</Dynamic>
+            <Dynamic>Can't resolve object 'y' in constraint 'ldc_set_location -site {31} [get_ports y]'.</Dynamic>
+            <Navigation>C:/Users/worbb/Desktop/IMA/FPGA/SWS_iCE40/source/impl_1/impl_1.pdc</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {28} [get_ports a]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {27} [get_ports b]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1011001</ID>
+            <Severity>16</Severity>
+            <Dynamic>ldc_set_location -site {31} [get_ports y]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>BTN[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>UART_RX</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>BTN[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>UART_RX</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>BTN[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>UART_RX</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>BTN[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>UART_RX</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>BTN[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>UART_RX</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>BTN[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>71003020</ID>
+            <Severity>16</Severity>
+            <Dynamic>UART_RX</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

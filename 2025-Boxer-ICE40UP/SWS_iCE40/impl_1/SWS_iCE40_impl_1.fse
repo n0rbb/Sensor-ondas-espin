@@ -1,0 +1,62 @@
+
+fsm_encoding {11103161031} sequential
+
+fsm_state_encoding {11103161031} idle {00}
+
+fsm_state_encoding {11103161031} startbit {01}
+
+fsm_state_encoding {11103161031} senddata {10}
+
+fsm_state_encoding {11103161031} stopbit {11}
+
+fsm_registers {11103161031} {current_state[1]}  {current_state[0]} 
+
+fsm_encoding {13133161332} sequential
+
+fsm_state_encoding {13133161332} idle {00}
+
+fsm_state_encoding {13133161332} startbit {01}
+
+fsm_state_encoding {13133161332} rcvdata {10}
+
+fsm_state_encoding {13133161332} stopbit {11}
+
+fsm_registers {13133161332} {current_state[1]}  {current_state[0]} 
+
+fsm_encoding {19250162503} onehot
+
+fsm_state_encoding {19250162503} idle {00000001}
+
+fsm_state_encoding {19250162503} readfifo {00000010}
+
+fsm_state_encoding {19250162503} writeram {00000100}
+
+fsm_state_encoding {19250162503} endwrite {00001000}
+
+fsm_state_encoding {19250162503} loadtransmitter {00010000}
+
+fsm_state_encoding {19250162503} sendtransmitter {00100000}
+
+fsm_state_encoding {19250162503} endtransmitter {01000000}
+
+fsm_state_encoding {19250162503} waiting {10000000}
+
+fsm_registers {19250162503} {current_state[0]}  {current_state[1]}  {current_state[2]}  {current_state[3]}  {current_state[4]}  {current_state[5]}  {current_state[6]}  {current_state[7]} 
+
+fsm_encoding {18292162924} onehot
+
+fsm_state_encoding {18292162924} idle {0000001}
+
+fsm_state_encoding {18292162924} fetch {0000010}
+
+fsm_state_encoding {18292162924} opfetch {0000100}
+
+fsm_state_encoding {18292162924} decode {0001000}
+
+fsm_state_encoding {18292162924} execute {0010000}
+
+fsm_state_encoding {18292162924} receive {0100000}
+
+fsm_state_encoding {18292162924} transmit {1000000}
+
+fsm_registers {18292162924} {current_state[0]}  {current_state[1]}  {current_state[2]}  {current_state[3]}  {current_state[4]}  {current_state[5]}  {current_state[6]} 

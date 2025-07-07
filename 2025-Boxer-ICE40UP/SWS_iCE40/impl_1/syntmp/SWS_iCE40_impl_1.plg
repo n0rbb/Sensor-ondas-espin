@@ -1,0 +1,17 @@
+@P:  Worst Slack : -25.448
+@P:  iCE_SWS|CLK_SOURCE - Estimated Frequency : NA
+@P:  iCE_SWS|CLK_SOURCE - Requested Frequency : 200.0 MHz
+@P:  iCE_SWS|CLK_SOURCE - Estimated Period : NA
+@P:  iCE_SWS|CLK_SOURCE - Requested Period : 5.000
+@P:  iCE_SWS|CLK_SOURCE - Slack : NA
+@P:  System - Estimated Frequency : 32.8 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 30.448
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : -25.448
+@P: iCE_SWS Part : ice40up5ksg48i-6
+@P: iCE_SWS I/O primitives : 6
+@P: iCE_SWS I/O Register bits : 0
+@P: iCE_SWS Register bits (Non I/O) : 2186 (41%)
+@P: iCE_SWS Total Luts : 2053 of 5280 (38%)
+@P:  CPU Time : 0h:00m:15s

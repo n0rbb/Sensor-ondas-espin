@@ -45,6 +45,10 @@ architecture ALU_Behavior of ALU is
 
      signal flag_zero, flag_err                   : std_logic;
      signal flag_zero_reg, flag_err_reg           : std_logic;
+     
+     -- Registros para guardar y recuperar el contexto de la ALU
+     signal a_ctx_r, b_ctx_r, acc_ctx_r, index_r_ctx_r : std_logic_vector(7 downto 0);
+     signal flag_zero_ctx_r, flag_err_ctx_r       : std_logic;
 
     signal databus_signal                         : std_logic_vector(7 downto 0);
      
@@ -127,25 +131,56 @@ architecture ALU_Behavior of ALU is
           ALU_Registers : process(CLK_PORT, RESET)
                begin
                     if RESET = '0' then
-                         a_reg         <= (others => '0');
-                         b_reg         <= (others => '0');
-                         acc_reg       <= (others => '0');
+                         a_reg              <= (others => '0');
+                         b_reg              <= (others => '0');
+                         acc_reg            <= (others => '0');
 
-                         index_r_reg   <= (others => '0');
+                         index_r_reg        <= (others => '0');
 
-                         flag_zero_reg <= '0';
-                         flag_err_reg  <= '0';
+                         flag_zero_reg      <= '0';
+                         flag_err_reg       <= '0';
+                         
+                         a_ctx_r            <= (others => '0');
+                         b_ctx_r            <= (others => '0');
+                         acc_ctx_r          <= (others => '0');
+                         
+                         index_r_ctx_r      <= (others => '0');
+                         
 
                     elsif CLK_PORT'event and CLK_PORT = '1' then
-                         a_reg         <= a;
-                         b_reg         <= b;
-                         acc_reg       <= acc;
+                         if ALU_OP = op_loadcontext then
+                            a_reg           <= a_ctx_r;
+                            b_reg           <= b_ctx_r;
+                            acc_reg         <= acc_ctx_r;
+                            
+                            index_r_reg     <= index_r_ctx_r;
+                            
+                            flag_zero_reg   <= flag_zero_ctx_r;
+                            flag_err_reg    <= flag_err_ctx_r;
+                            
+                         else
+                            a_reg           <= a;
+                            b_reg           <= b;
+                            acc_reg         <= acc;
 
-                         index_r_reg   <= index_r;
+                            index_r_reg     <= index_r;
 
-                         flag_zero_reg <= flag_zero;
-                         flag_err_reg  <= flag_err;
-
+                            flag_zero_reg   <= flag_zero;
+                            flag_err_reg    <= flag_err;
+                            
+                         end if;
+                         
+                         if ALU_OP = op_savecontext then
+                            a_ctx_r         <= a_reg;
+                            b_ctx_r         <= b_reg;
+                            acc_ctx_r       <= acc_reg;
+                            
+                            index_r_ctx_r   <= index_r_reg;
+                            
+                            flag_zero_ctx_r <= flag_zero_reg;
+                            flag_err_ctx_r  <= flag_err_reg;
+                            
+                         end if;
                     end if;
           end process ALU_Registers;
           
